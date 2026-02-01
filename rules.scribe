@@ -1,0 +1,1476 @@
+watermark (
+Combat Seamstress v2026.02.01 by James Tomasino
+)
+title (
+    Combat Seamstress
+)
+
+
+<!-- The header text; The "(())" is for your TOC -->
+head (
+# Combat Seamstress ((Combat Seamstress))
+Calm and meticulous, the combat seamstress controls the flow of battle with needle, thread, and blade. Rather than overpowering foes, they bind space, allies, and enemies, shaping the fight through careful preparation and punishing missteps. Those who face a seamstress rarely fall in a single blow, instead realizing too late that every step has already been sewn into place.
+-
+)
+
+<!-- Right Sidebar; Must be before left content -->
+right (
+
+# Rarity
+
+Uncommon
+
+# Initial Proficiencies
+
+At 1st level, you gain the listed proficiency ranks in the following statistics. You are untrained in anything not listed unless you gain a better proficiency rank in some other way.
+
+# Perception
+
+Trained in Perception
+
+# Saving Throws
+
+Trained in Fortitude  
+Expert in Reflex  
+Trained in Will  
+
+# Skills
+
+Trained in Crafting  
+Trained in a number of additional skills equal to 3 plus your Intelligence modifier
+
+# Attacks
+
+Trained in simple weapons  
+Trained in tailor scissors and needles  
+Trained in unarmed attacks  
+
+# Defenses
+
+Trained in light armor  
+Trained in unarmored defense  
+
+# Class DC
+
+Trained in Combat Seamstress class DC
+
+)
+
+<!-- Class Key Ability & HP block -->
+info (
+
+###### Key Ability ((+Key Ability))
+
+##### <div style="text-align:left">Dexterity</div>
+
+At 1st level, your class gives you an ability boost to your Dexterity.
+
+|
+
+###### Hit Points ((+Hit Points))
+
+##### <div style="text-align:left">8 plus your Constitution modifier</div>
+
+You increase your maximum number of HP by this number at 1st level and every level thereafter.
+
+)
+
+<br>
+
+## During combat encounters...
+You shape the fight by controlling space and timing. You bind enemies, punish careless movement, and force opponents to act on your terms. Your power comes from preparation, positioning, and threatening enemy mobility.
+
+## During social encounters...
+You read people through details they do not realize they reveal. Repairs, posture, habits, and wear all tell stories. You speak carefully and precisely, and when needed, you apply subtle pressure rather than overt threats.
+
+## While exploring...
+You secure paths, reinforce gear, and prepare contingencies before danger appears. Traps, hazards, and sudden movement are less threatening when you have already planned how to limit them.
+
+## In downtime...
+You mend, modify, and experiment. Armor, clothing, tools, and threads become testbeds for new techniques. Your craft improves through constant refinement rather than inspiration.
+
+## You Might...
+* Treat preparation as a form of offense  
+* Prefer control and certainty over improvisation  
+* View movement and positioning as problems to be solved  
+
+## Others Probably...
+* Underestimate you until they are restrained  
+* Find your patience unsettling  
+* Notice that fights seem calmer when you are involved  
+
+=
+
+##### Table 1-1: Combat Seamstress Advancement ((+Combat Seamstress Advancement))
+
+| Your Level | Class Features |
+|:----------:|:---------------|
+| 1 | Ancestry and background, initial proficiencies, threadcraft, needle throw |
+| 2 | Combat Seamstress feat, skill feat, tailored defenses, living fabric |
+| 3 | Weaving Style, general feat, skill increase |
+| 4 | Combat Seamstress feat, skill feat |
+| 5 | Ability boosts, ancestry feat, skill increase, expert Perception |
+| 6 | Combat Seamstress feat, skill feat |
+| 7 | General feat, skill increase |
+| 8 | Combat Seamstress feat, skill feat |
+| 9 | Skill increase |
+| 10 | Ability boosts, ancestry feat, Combat Seamstress feat, skill feat |
+| 11 | General feat, skill increase |
+| 12 | Combat Seamstress feat, skill feat |
+| 13 | Skill increase |
+| 14 | Combat Seamstress feat, skill feat |
+| 15 | Ability boosts, ancestry feat, general feat, skill increase |
+| 16 | Combat Seamstress feat, skill feat |
+| 17 | Skill increase |
+| 18 | Combat Seamstress feat, skill feat |
+| 19 | General feat, skill increase |
+| 20 | Ability boosts, ancestry feat, Combat Seamstress feat, skill feat |
+
+# Class Features
+
+## Ancestry and Background
+In addition to what you get from your class at 1st level, you have the benefits of your selected ancestry and background.
+
+## Initial Proficiencies
+At 1st level, you gain a number of proficiencies that represent your basic training. These proficiencies are noted at the start of this class.
+
+## Threadcraft
+At 1st level, you can create supernatural threads as environmental hazards. They are visible, physical lines of reinforced thread stretched taut between two anchors. Threads do not block movement, line of effect, or line of sight. Instead, they impose consequences when crossed.
+
+Unless otherwise stated, threads can only be anchored to **squares, terrain features, or unattended objects**. Anchoring threads to creatures requires a Weaving Style or feat.
+
+|
+
+### Thread Limits
+
+You can maintain a number of threads equal to **1 plus your proficiency bonus in your Combat Seamstress class DC**.
+
+A single thread cannot exceed **30 feet per proficiency rank** in your Combat Seamstress class DC.
+
+Threads persist until severed or until you make your next daily preparations.
+
+##### Table 1-3: Combat Seamstress Progression Summary ((+Tables))
+Level | Class DC Proficiency | Active Threads | Maximum Thread Length | Advanced Thread Effects | Tailored Defenses Prepared
+--- | :---: | :---: | :---: | :---: | :---:
+1 | Trained | 3 | 30 feet | — | —
+2–4 | Trained | 3 | 30 feet | — | 3
+5 | Expert | 5 | 60 feet | — | 5
+6–9 | Expert | 5 | 60 feet | 6th | 5
+10–12 | Expert | 5 | 60 feet | 10th | 5
+13 | Master | 7 | 90 feet | 10th | 7
+14–15 | Master | 7 | 90 feet | 14th | 7
+16–18 | Master | 7 | 90 feet | 18th | 7
+19–20 | Legendary | 9 | 120 feet | 18th | 9
+
+### Thread Effects
+
+Each thread has **one effect slot**, chosen when the thread is created.
+
+When a creature crosses a thread during its own movement, the thread’s effect triggers. A thread can trigger only **once per creature per movement** unless an ability states otherwise.
+
+The effects available to you are granted by class features and feats and typically impose conditions, movement penalties, or positional hindrances.
+
+If you have an ability that allows you to exempt allies, you can designate exempt creatures when you create a thread. You can designate up to **1 plus your proficiency bonus in your Combat Seamstress class DC**. Exempt creatures do not trigger that thread’s effects, nor do they pay any action costs imposed by it.
+
+Tethers are threads. When a tether triggers, it applies the thread effect slot chosen for that tether.
+
+=
+
+item(
+# Thread
+## Hazard
+-
+; simple, environmental
+**Stealth** — (always visible)
+
+**Description**  
+A taut supernatural thread stretches between two anchors, humming faintly with restrained force.
+
+**Disable**  
+Athletics or Acrobatics vs the Combat Seamstress’s class DC to pass through carefully without triggering the thread
+
+**Trigger**  
+A creature crosses the thread during its own movement
+
+**Effect**  
+The thread applies its chosen effect slot
+
+)
+
+---
+
+### Basic Thread Effects
+
+At 1st level, when you create a thread, you can choose one of the following **basic thread effects** to fill its effect slot.
+
+Unless otherwise stated, a creature that triggers a thread attempts a saving throw against your Combat Seamstress class DC.
+
+You gain additional thread effects through feats and class features.
+
+item(
+# Fate Snare ((+Fate Snare))
+## Thread Effect
+-
+; mental
+**Save** Will
+
+**Failure** The creature is slowed 1 until the start of its next turn.  
+
+**Critical Failure** The creature is stunned 1.
+)
+
+item(
+# Strain ((+Snag))
+## Thread Effect
+-
+; control
+**Save** Fortitude
+
+**Failure** The creature is enfeebled 1 until the start of its next turn.  
+
+**Critical Failure** The creature is enfeebled 2 until the start of its next turn.
+
+)
+
+item(
+# Off-Balance ((+Off-Balance))
+## Thread Effect
+-
+; condition
+**Save** Reflex
+
+**Failure** The creature is off-guard until the start of its next turn.
+
+)
+
+|
+
+item(
+# Tug ((+Tug))
+## Thread Effect
+-
+; condition
+**Save** Fortitude
+
+**Failure** The creature is clumsy 1 until the start of its next turn.  
+
+**Critical Failure** The creature is clumsy 2 until the start of its next turn.
+)
+
+---
+
+### Advanced Thread Effects
+
+As you gain levels, you can choose from additional thread effects when creating a thread.
+
+#### 6th Level
+
+item(
+# Binding Thread ((+Binding Thread))
+## Thread Effect
+-
+; control
+**Save** Reflex
+
+**Failure** The creature takes a –10-foot status penalty to its Speed until the start of its next turn.  
+
+**Critical Failure** The creature is immobilized until the start of its next turn.
+)
+
+item(
+# Unraveling Thread ((+Unraveling Thread))
+## Thread Effect
+-
+; mental
+**Save** Will
+
+**Failure** The creature is stupefied 1 until the start of its next turn.  
+
+**Critical Failure** The creature is stupefied 2 until the start of its next turn.
+)
+
+#### 10th Level
+
+item(
+# Staggering Thread ((+Staggering Thread))
+## Thread Effect
+-
+; control
+**Save** Fortitude
+
+**Failure** The creature is slowed 1 until the start of its next turn.  
+
+**Critical Failure** The creature is slowed 1 and off-guard until the start of its next turn.
+)
+
+item(
+# Clinging Thread ((+Clinging Thread))
+## Thread Effect
+-
+; control
+**Save** Reflex
+
+**Failure** The creature is off-guard and takes a –10-foot status penalty to its Speed until the start of its next turn.  
+
+**Critical Failure** The creature is immobilized and off-guard until the start of its next turn.
+)
+
+=
+
+#### 14th Level
+
+item(
+# Numbing Thread ((+Numbing Thread))
+## Thread Effect
+-
+; control
+**Save** Fortitude
+
+**Failure** The creature is enfeebled 2 until the start of its next turn.  
+
+**Critical Failure** The creature is enfeebled 3 until the start of its next turn.
+)
+
+item(
+# Dread Thread ((+Dread Thread))
+## Thread Effect
+-
+; emotion, fear, mental
+**Save** Will
+
+**Failure** The creature is frightened 1 until the start of its next turn.  
+
+**Critical Failure** The creature is frightened 2 until the start of its next turn.
+)
+
+#### 18th Level
+
+item(
+# Paralyzing Thread ((+Paralyzing Thread))
+## Thread Effect
+-
+; control
+**Save** Fortitude
+
+**Failure** The creature is immobilized until the end of its next turn.  
+
+**Critical Failure** The creature is immobilized and slowed 1 until the end of its next turn.
+)
+
+### Severing Threads
+
+A creature adjacent to a thread can attempt to sever it using one of the actions below.
+
+item(
+# Strike to Sever ((+Strike to Sever)) :a:
+-
+; attack, melee
+
+Make a Strike with a slashing or piercing weapon against the Combat Seamstress’s class DC.
+
+**Success** The thread is severed and destroyed.  
+
+**Failure** The Strike misses and the thread remains intact.
+
+This Strike does not deal damage, and it does not trigger reactions that respond to damage.
+)
+
+|
+
+item(
+# Forceful Tear ((+Forceful Tear)) :a:
+-
+; interact, athletics
+
+Attempt an Athletics check against the Combat Seamstress’s class DC to tear or disrupt the thread.
+
+**Critical Success** The thread is severed and destroyed.  
+
+**Success** The thread is damaged and goes slack. It does not trigger effects until the end of your next turn.  
+
+**Failure** No effect.  
+
+**Critical Failure** You trigger the thread’s effect.
+)
+
+### Forced Movement and Teleportation
+
+Forced movement does not trigger threads.
+
+If an anchor teleports, leaves the plane, or otherwise moves without traversing intervening space, the thread immediately unravels.
+
+Threads do not prevent teleportation unless an ability explicitly states otherwise.
+
+### Multiple Threads
+
+If a creature crosses multiple threads during a single movement, each thread can trigger independently, subject to any limits imposed by your abilities.
+
+item(
+# Needle Throw ((+Needle Throw)) :a:
+-
+; attack, finesse, ranged, manipulate
+
+**Range** 20 feet, increment 20 feet
+
+Make a ranged Strike with a needle at an unoccupied square, an unattended object, or a held object you can clearly target. If you have Tether Weave, you can instead target a creature. On a hit, you create or extend a thread anchored at the struck square, object, or creature, choosing the thread’s effect slot when it is created. The thread’s length cannot exceed your maximum thread length and it counts against your maximum number of threads.
+
+If you target a creature, a tether to a willing creature is protective, and a tether to an unwilling creature is hostile. A tether to an unwilling ally has no protective effects.
+
+If you already have the maximum number of threads, you can instead extend an existing thread from the struck anchor, up to its maximum length.
+
+Creating or extending a thread with this action uses your Combat Seamstress class DC for any required saves or checks related to that thread.
+)
+
+=
+
+## Tailor's Cut
+When you critically hit with your tailor scissors, the target takes 1d4 persistent bleed damage. This damage die increases to 1d6 at 5th level, 1d8 at 11th level, and 1d10 at 17th level.
+
+## Skill Feats 2nd
+At 2nd level and every 2 levels thereafter, you gain a skill feat.
+
+## Combat Seamstress Feats 2nd
+At 2nd level and every even-numbered level thereafter, you gain a Combat Seamstress class feat.
+
+## Tailored Defenses 2nd
+
+Beginning at 2nd level, you prepare subtle supernatural reinforcements woven directly into your clothing, armor, and accessories.
+
+During your daily preparations, you can prepare a limited number of **tailored defenses**. A tailored defense represents reinforced seams, layered cloth, hidden weights, or protective treatments that remain effective until your next daily preparations.
+
+Tailored defenses are not items and cannot be removed, transferred, or stolen.
+
+### Tailored Defense Slots
+
+You can prepare a limited number of tailored defenses at a time.
+
+You gain a number of Tailored Defense Slots equal to 1 + your proficiency bonus in your Combat Seamstress class DC.
+
+You can prepare the same tailored defense more than once only if it explicitly allows it.
+
+### Using Tailored Defenses
+
+Unless otherwise stated, tailored defenses apply only to you.
+
+Some tailored defenses provide passive benefits. Others grant a single-use or limited-use effect that is expended when triggered. Once expended, a tailored defense provides no further benefit until your next daily preparations.
+
+Starting at 6th level, you can prepare tailored defenses for willing allies. Choose the ally during your daily preparations; the defense functions only while that ally wears or carries the tailored garment or accessory.
+
+Starting at 10th level, any tailored defense can be prepared for an ally unless it explicitly states otherwise.
+
+|
+
+### Basic Tailored Defenses
+
+When you first gain Tailored Defenses, you can prepare any of the following options.
+
+item(
+# Reinforced Seams ((+Reinforced Seams))
+## Tailored Defense
+-
+; defense
+
+Your clothing and armor are reinforced with dense, overlapping stitching.
+
+You gain resistance 2 to the first instance of physical damage you take each round. This resistance increases to 4 at 10th level and 6 at 16th level.
+)
+
+
+item(
+# Slip-Lined Hem ((+Slip-Lined Hem))
+## Tailored Defense
+-
+; mobility
+
+Your garments are lined to slide against grasping hands and sudden pulls.
+
+You gain a +2 circumstance bonus to checks and DCs to resist being Grappled, Restrained, or Shoved.
+)
+
+item(
+# Tatter-Cloak ((+Tatter-Cloak))
+## Tailored Defense
+-
+; illusion, defense, consumable
+
+Loose strips and layered cloth fly free from your outfit, disrupting your silhouette.
+
+:f: **Trigger** You are targeted by an attack.  
+You gain total concealment against that attack, then this tailored defense is expended.
+)
+
+### Advanced Tailored Defenses
+
+item(
+# Outfit Reinforcement ((+Outfit Reinforcement))
+## Tailored Defense
+-
+; defense
+**Prerequisites** 6th level
+
+You reinforce a creature’s clothing or armor with dense stitching and weighted hems.
+
+The prepared creature gains a +1 circumstance bonus to checks and DCs to resist being Grappled, Restrained, or Shoved.
+)
+
+item(
+# Camouflage Stitching ((+Camouflage Stitching))
+## Tailored Defense
+-
+; illusion
+**Prerequisites** 10th level
+
+You pattern a garment with light-bending threadwork.
+
+Choose a terrain (such as forest, urban, or desert). The prepared creature gains a +2 circumstance bonus to Stealth checks while in that terrain.
+)
+
+=
+
+item(
+# Quick Disguise Kit ((+Quick Disguise Kit))
+## Tailored Defense
+-
+; utility, consumable
+**Prerequisites** 14th level
+
+You assemble a flexible disguise kit from tailored pieces and reversible stitching.
+
+The prepared creature gains a +4 circumstance bonus to Deception checks to Impersonate while wearing the tailored outfit. The first time the prepared creature attempts an Impersonate check, this tailored defense is expended.
+)
+
+item(
+# Distracting Fringe ((+Distracting Fringe))
+## Tailored Defense
+-
+; defense
+**Prerequisites** 6th level
+
+Loose tassels and layered seams tug at sightlines.
+
+You gain a +1 circumstance bonus to AC against ranged attacks.
+)
+
+item(
+# Fluttering Misdirection ((+Fluttering Misdirection))
+## Tailored Defense
+-
+; defense
+**Prerequisites** 10th level
+
+Flowing hems and shifting panels mislead targeting.
+
+Once per round, when a creature misses you with a melee Strike, that creature is off-guard to you until the end of its turn.
+)
+
+item(
+# Evasive Stitch ((+Evasive Stitch))
+## Tailored Defense
+-
+; mobility, consumable
+**Prerequisites** 10th level
+
+Your stitching loosens at the exact moment to slip away from danger.
+
+:f: **Trigger** You succeed at a Reflex saving throw.  
+You treat the result as a critical success, then this tailored defense is expended.
+)
+
+|
+
+item(
+# Seam of Deflection ((+Seam of Deflection))
+## Tailored Defense
+-
+; defense, consumable
+**Prerequisites** 12th level
+
+Heavy reinforcing thread catches the worst of the blow.
+
+:f: **Trigger** You are hit by a Strike.  
+If the triggering Strike is a critical hit, it is a normal hit instead. Reduce the damage by 10 (15 at 16th level), then this tailored defense is expended.
+)
+
+## Living Fabric
+
+You can animate cloth and fabric you have previously handled through subtle supernatural tailoring.
+
+You can affect only cloth or fabric you have touched since your last daily preparations, and only while it remains within your maximum thread range.
+
+Living fabric is not a creature or hazard and cannot attack, restrain, or deal damage unless a feat explicitly allows it.
+
+item(
+# Living Fabric Manipulation ((+Living Fabric Manipulation))
+## :a:
+-
+; manipulate
+
+You momentarily animate a piece of cloth or fabric.
+
+Choose one of the following effects:
+* Tug, wrap, loosen, tighten, or shift fabric
+* Hold or reposition an unattended cloth or fabric object
+* Catch or redirect a falling cloth or fabric object
+* Briefly shape fabric into a simple form
+
+The effect resolves immediately and does not persist beyond this action.
+)
+
+item(
+# Sustained Living Fabric ((+Sustained Living Fabric))
+## :aa:
+-
+; manipulate
+**Traits** manipulate
+
+You shape or animate fabric into a more complex or load-bearing form.
+
+You can create a temporary structure or tool made of cloth, such as a rope, ladder, sling, curtain, or padding. The structure persists for **up to 1 minute**. The structure collapses when the duration ends or once it has served its immediate purpose.
+)
+
+=
+
+item(
+# Living Fabric Arrest ((+Living Fabric Arrest))
+## :r:
+-
+; manipulate
+
+**Trigger** You or a creature within range wearing or attached to fabric would take falling damage.
+
+You animate nearby fabric to slow the fall.
+
+Treat the fall as **20 feet shorter** for the triggering creature. This cannot prevent a fall entirely.
+)
+
+|
+
+## General Feats 3rd
+At 3rd level and every 4 levels thereafter, you gain a general feat.
+
+## Skill Increases 3rd
+At 3rd level and every 2 levels thereafter, you gain a skill increase.
+
+## Ability Boosts 5th
+At 5th level and every 5 levels thereafter, you boost four different ability scores.
+
+## Ancestry Feats 5th
+In addition to the ancestry feat you started with, you gain an ancestry feat at 5th level and every 4 levels thereafter.
+
+/
+
+---
+
+# Weaving Styles ((+Weaving Styles))
+
+At 3rd level, you choose a weaving style that defines how your threads interact with creatures and the battlefield. Your weaving style changes what your threads can target, how they trigger, and what kinds of effects they enable.
+
+/
+
+## Tether Weave
+
+Tether Weave alters your threads to bind creatures directly. You can tether enemies to punish escape or tether allies to prepare protection.
+
+### Creature Anchoring
+Your threads can now anchor to creatures using Needle Throw instead of objects.
+
+When you anchor a thread to a creature, the other end of the thread must be anchored to you. This creates a **tether**.
+
+A creature can have only one tether to you at a time unless an ability states otherwise.
+
+### Tethered Awareness
+You always know the precise location of a creature tethered to you.
+
+For **your attacks only**, a hostile tethered creature does not benefit from the concealed or invisible conditions against you. This does not affect other creatures’ attacks, and it does not negate other defensive benefits such as cover.
+
+For willing tethered allies, you can communicate simple intent through the tether as a free action, at the GM’s discretion. This awareness represents constant physical feedback through the tether, not visual perception.
+
+|
+
+### Hostile Tether Triggers
+A hostile tether is a thread and uses its thread effect slot, but it does not trigger when crossed by other creatures.
+
+If the tethered creature takes any movement or action that would increase its distance from you, treat the squares that increase distance as difficult terrain for that creature while it is attempting that movement.
+
+Tethers trigger their effects only when the tethered creature **Strides**. Movement that does not involve a Stride, such as Step or forced movement, does not trigger tether effects.
+
+### Protective Tethers
+Tethers to willing allies do not impose movement penalties and do not trigger on ally movement.
+
+You spend actions to prepare protective bindings on tethered allies. These bindings last until the start of your next turn or until triggered, whichever comes first.
+
+
+Protective binds do not use reactions unless an ability explicitly states otherwise.
+
+A prepared protective binding is called a protective bind. Feats such as Guardian's Shield and Threaded Bulwark grant options for these binds.
+
+=
+
+### Protective Bind Triggers
+Protective binds trigger when their specified condition is met, such as taking damage, failing a saving throw, or being targeted by an attack. When a protective bind triggers, it is consumed.
+
+### Breaking Tethers
+A tether unravels if the tethered creature teleports, leaves the plane, or becomes extradimensional. Forced movement does not break tethers.
+
+## Lattice Weave
+
+Lattice Weave emphasizes dense environmental threading that taxes movement and punishes careless positioning.
+
+|
+
+### Enhanced Environmental Threads
+When a creature crosses one of your threads during its own movement, crossing that thread costs **1 additional action**.
+
+This action cost is paid immediately after the triggering movement. If the creature does not have an additional action available, the thread triggers and the creature’s movement ends immediately.
+
+### Layered Geometry
+If a creature crosses multiple of your threads during a single movement, each thread can trigger independently.
+
+Lattice Weave does not increase your thread cap or maximum thread length. Instead, it increases the cost of ignoring your threads.
+
+/
+
+---
+
+# Combat Seamstress Feats ((+ Combat Seamstress Feats))
+
+At every level that you gain a Combat Seamstress feat, you can select one of the following.
+
+/
+
+| Feat | Level |
+|:-----|:-----:|
+| Precise Stitch | 1 |
+| Steady Hand | 1 |
+| Habitual Stitch | 1 |
+| Quick Hem | 2 |
+| Extra Tailoring | 2 |
+| Threaded Aid | 2 |
+| Measured Steps | 2 |
+| Entangling Stitch | 4 |
+| Reinforced Hem | 4 |
+| Thread Sense | 4 |
+| No Shortcuts | 4 |
+| Knotted Ground | 4 |
+| Cutter's Reward | 6 |
+| Stake the Line | 6 |
+| Party Exemption Minor | 6 |
+| Hooked Riposte | 6 |
+| Needle Barricade | 6 |
+| Snare and Pull | 8 |
+| Lattice Step | 8 |
+| Worked Ground | 8 |
+| Guardian's Shield | 8 |
+| Weaver's Appraisal | 8 |
+| Powerful Threads | 10 |
+| Reinforced Lattice | 10 |
+| Coordinated Stitch | 10 |
+| Serrated Shears | 10 |
+
+|
+
+| Feat | Level |
+|:-----|:-----:|
+| Severing Cut | 12 |
+| Durable Defenses | 12 |
+| Deepen the Cut | 12 |
+| Thread Network | 12 |
+| Stitched Warning | 12 |
+| Shifting Anchors | 12 |
+| Patterned Opening | 12 |
+| Tanglefall | 14 |
+| Masterful Pull | 14 |
+| Guardian's Reinforcement | 14 |
+| Living Fabric Bind | 14 |
+| Threadmastery | 16 |
+| Lattice Overload | 16 |
+| Threaded Bulwark | 16 |
+| Living Fabric Mastery | 16 |
+| Seamripper's Precision | 16 |
+| Living Stitch | 18 |
+| Sever and Rearm | 18 |
+| Party Exemption Major | 18 |
+| Dimensional Snag | 18 |
+| Lattice Lock | 18 |
+| Grand Weave | 20 |
+| Weave Supreme | 20 |
+| Fatebound Stitch | 20 |
+| Lattice Mastery | 20 |
+
+=
+
+#### 1st level ((++1st level Feats))
+
+specialfeat {
+item (
+# Precise Stitch ((+++Precise Stitch))
+## Feat 1
+-
+;Combat Seamstress
+When you create a thread, you can choose to delay selecting its effect slot until the first time it would trigger.
+)
+}
+
+specialfeat {
+item (
+# Steady Hand ((+++Steady Hand))
+## Feat 1
+-
+;Combat Seamstress
+When you make a tailor scissors Strike, ignore the first –1 circumstance penalty you would take on that Strike.
+)
+}
+
+specialfeat {
+item (
+# Habitual Stitch ((+++Habitual Stitch))
+## Feat 1
+-
+;Combat Seamstress
+During your daily preparations, you can repair one worn or damaged non-magical garment, outfit, or piece of clothing at no cost, restoring it to good condition.
+)
+}
+
+#### 2nd level ((++2nd level Feats))
+
+specialfeat {
+item (
+# Quick Hem ((+++Quick Hem))
+## Feat 2
+-
+;Combat Seamstress, attack
+## :a:
+Make a tailor scissors Strike. On a hit, the target is marked until the end of your next turn.
+
+## :f:
+**Trigger** The marked target triggers or is affected by one of your threads before the mark ends.
+-
+Trigger that thread’s effect.
+)
+}
+
+specialfeat {
+item (
+# Extra Tailoring ((+++Extra Tailoring))
+## Feat 2
+-
+;Combat Seamstress
+Increase the number of Tailored Defenses you can prepare by 1.
+)
+}
+
+specialfeat {
+item (
+# Threaded Aid ((+++Threaded Aid))
+## Feat 2
+-
+;Combat Seamstress
+## :r:
+**Prerequisites** Tether Weave  
+**Trigger** A tethered ally within your thread range attempts a check or saving throw.  
+**Requirements** You can sense the ally.
+-
+You Aid that ally using an appropriate skill, even if you are not adjacent. Resolve Aid normally.
+)
+}
+
+|
+
+specialfeat {
+item (
+# Measured Steps ((+++Measured Steps))
+## Feat 2
+-
+;Combat Seamstress
+**Prerequisites** Lattice Weave
+-
+Once per turn, you can Step into a square that contains one of your threads without triggering its effects or action cost.
+)
+}
+
+#### 4th level ((++4th level Feats))
+
+specialfeat {
+item (
+# Entangling Stitch ((+++Entangling Stitch))
+## Feat 4
+-
+;Combat Seamstress
+## :aa:
+Create a thread with one of the following effects: off-guard, clumsy 1, or Strain (enfeebled 1) until the start of the creature’s next turn.
+)
+}
+
+specialfeat {
+item (
+# Reinforced Hem ((+++Reinforced Hem))
+## Feat 4
+-
+;Combat Seamstress
+Your Tailored Defenses gain increased durability. Increase their numerical benefits by 1 step at 4th level and again at 12th level.
+)
+}
+
+specialfeat {
+item (
+# Thread Sense ((+++Thread Sense))
+## Feat 4
+-
+;Combat Seamstress
+You automatically know when a thread you created is crossed, triggered, slackened, or severed, and can sense its anchors within 60 feet.
+)
+}
+
+specialfeat {
+item (
+# No Shortcuts ((+++No Shortcuts))
+## Feat 4
+-
+;Combat Seamstress
+**Prerequisites** Tether Weave
+-
+Hostile tether effects also trigger when a tethered creature Steps. A creature can trigger this benefit only once per turn.
+)
+}
+
+specialfeat {
+item (
+# Knotted Ground ((+++Knotted Ground))
+## Feat 4
+-
+;Combat Seamstress
+**Prerequisites** Lattice Weave
+-
+When a creature triggers one of your threads, it takes a –10-foot status penalty to its Speed until the end of its next turn.
+)
+}
+
+=
+
+#### 6th level ((++6th level Feats))
+
+specialfeat {
+item (
+# Cutter's Reward ((+++Cutter's Reward))
+## Feat 6
+-
+;Combat Seamstress
+Once per turn, when you hit with your tailor scissors, the target takes persistent bleed damage equal to your Tailor's Cut damage die. If the target is affected by one of your threads or tethers, increase the die by one step.
+)
+}
+
+specialfeat {
+item (
+# Stake the Line ((+++Stake the Line))
+## Feat 6
+-
+;Combat Seamstress, manipulate
+When you use Needle Throw, you can create a thread between two anchors you can see. Both anchors must be within Needle Throw range, and the thread must still obey your maximum thread length.
+)
+}
+
+specialfeat {
+item (
+# Party Exemption Minor ((+++Party Exemption Minor))
+## Feat 6
+-
+;Combat Seamstress
+When you create a thread, you can designate a number of creatures up to **1 plus your proficiency bonus in your Combat Seamstress class DC** as exempt from that thread. Exempt creatures do not trigger your environmental threads or pay their action costs.
+)
+}
+
+specialfeat {
+item (
+# Hooked Riposte ((+++Hooked Riposte))
+## Feat 6
+-
+;Combat Seamstress, attack
+## :r:
+**Prerequisites** Tether Weave  
+**Trigger** A tethered enemy within your reach Strides to increase its distance from you.  
+**Requirements** You are wielding your tailor scissors.
+-
+Make a tailor scissors Strike against the triggering creature before it leaves your reach.
+)
+}
+
+specialfeat {
+item (
+# Needle Barricade ((+++Needle Barricade))
+## Feat 6
+-
+;Combat Seamstress
+## :r:
+**Prerequisites** Lattice Weave  
+**Trigger** A creature crosses one of your threads.
+-
+The triggering creature must attempt a Reflex save against your class DC.
+
+**Critical Success** The creature is unaffected.  
+
+**Success** The creature is unaffected.  
+
+**Failure** Its movement ends immediately.  
+
+**Critical Failure** Its movement ends and it falls prone.
+)
+}
+
+|
+
+#### 8th level ((++8th level Feats))
+
+specialfeat {
+item (
+# Snare and Pull ((+++Snare and Pull))
+## Feat 8
+-
+;Combat Seamstress
+## :aa:
+**Prerequisites** Tether Weave
+-
+Pull a tethered enemy 5 feet closer to you. This movement does not trigger reactions.
+)
+}
+
+specialfeat {
+item (
+# Lattice Step ((+++Lattice Step))
+## Feat 8
+-
+;Combat Seamstress
+**Prerequisites** Lattice Weave
+-
+Once per turn, you can move through one of your threads without triggering its effects or action cost.
+)
+}
+
+specialfeat {
+item (
+# Worked Ground ((+++Worked Ground))
+## Feat 8
+-
+;Combat Seamstress
+Squares that contain one of your threads are treated as one step easier on the difficult terrain scale for you.
+
+This does not affect other creatures.
+)
+}
+
+specialfeat {
+item (
+# Guardian's Shield ((+++Guardian's Shield))
+## Feat 8
+-
+;Combat Seamstress
+## :a:
+**Prerequisites** Tether Weave
+-
+Prepare a protective bind on a tethered ally within your thread range. Choose one of the following effects. Until the start of your next turn, the first time the ally would take damage or attempt a saving throw, the chosen effect applies, then the bind is expended.
+
+* **Reinforced Binding** The ally gains resistance 5 to all damage from the triggering damage instance (resistance 10 at 15th level).
+* **Steeled Thread** The ally gains a +2 circumstance bonus to the triggering saving throw (+3 at 15th level).
+)
+}
+
+specialfeat {
+item (
+# Weaver's Appraisal ((+++Weaver's Appraisal))
+## Feat 8
+-
+;Combat Seamstress
+You can use Crafting to Recall Knowledge about creatures wearing armor or clothing, or about hazards and structures involving textiles or construction. If you succeed at a Recall Knowledge check about a creature, you gain a +1 circumstance bonus to your next tailor scissors Strike or thread effect DC against that creature before the end of your next turn.
+)
+}
+
+=
+
+#### 10th level ((++10th level Feats))
+
+specialfeat {
+item (
+# Powerful Threads ((+++Powerful Threads))
+## Feat 10
+-
+;Combat Seamstress
+**Prerequisites** Tether Weave
+-
+Once per turn, when a tethered creature Strides to increase distance, it must succeed at an Athletics check against your class DC or be unable to do so. On a critical failure, the creature is immobilized until the end of its turn.
+)
+}
+
+specialfeat {
+item (
+# Reinforced Lattice ((+++Reinforced Lattice))
+## Feat 10
+-
+;Combat Seamstress
+**Prerequisites** Lattice Weave
+-
+If a creature crosses multiple of your threads during a single movement, each thread can trigger independently.
+)
+}
+
+specialfeat {
+item (
+# Coordinated Stitch ((+++Coordinated Stitch))
+## Feat 10
+-
+;Combat Seamstress
+**Prerequisites** Tether Weave
+-
+When you prepare a protective bind, you can spend 1 additional action to prepare a linked bind on a second tethered ally. When one linked bind triggers, the other is immediately expended and grants the same benefit.
+)
+}
+
+specialfeat {
+item (
+# Serrated Shears ((+++Serrated Shears))
+## Feat 10
+-
+;Combat Seamstress
+When you critically hit with your tailor scissors, increase your Tailor's Cut damage die by one step for that instance. If the target is already taking persistent bleed damage from your Tailor's Cut, increase that bleed damage by one step instead.
+)
+}
+
+#### 12th level ((++12th level Feats))
+
+specialfeat {
+item (
+# Severing Cut ((+++Severing Cut))
+## Feat 12
+-
+;Combat Seamstress
+## :r:
+**Trigger** You hit a creature with your tailor scissors.
+-
+Attempt to sever one thread or tether attached to the target. Compare the result of the triggering Strike to the thread or tether’s DC; on a success, it is severed.
+)
+}
+
+specialfeat {
+item (
+# Durable Defenses ((+++Durable Defenses))
+## Feat 12
+-
+;Combat Seamstress
+Increase the number of Tailored Defenses you can prepare by 1, and increase their durations or thresholds where applicable.
+)
+}
+
+|
+
+specialfeat {
+item (
+# Deepen the Cut ((+++Deepen the Cut))
+## Feat 12
+-
+;Combat Seamstress
+Increase your Tailor's Cut damage die by one step. If you have Cutter's Reward and the target is already taking persistent bleed damage from your Tailor's Cut, you can increase that bleed damage by one step, to a maximum of 1d10.
+)
+}
+
+specialfeat {
+item (
+# Thread Network ((+++Thread Network))
+## Feat 12
+-
+;Combat Seamstress
+## :f:
+**Trigger** A creature triggers one of your threads.
+-
+Threads are connected if they share an anchor or if a chain of your threads links their anchors. Choose another connected thread; the creature is affected by the chosen thread’s effect slot instead of the original. This does not increase the number of effects triggered.
+)
+}
+
+specialfeat {
+item (
+# Patterned Opening ((+++Patterned Opening))
+## Feat 12
+-
+;Combat Seamstress
+Once per round, when a creature triggers one of your threads, you gain a +1 circumstance bonus to your next tailor scissors Strike against that creature before the end of your next turn.
+)
+}
+
+specialfeat {
+item (
+# Stitched Warning ((+++Stitched Warning))
+## Feat 12
+-
+;Combat Seamstress
+**Prerequisites** Tether Weave
+-
+When a hostile tether triggers, the tethered creature is off-guard to you until the start of your next turn.
+)
+}
+
+specialfeat {
+item (
+# Shifting Anchors ((+++Shifting Anchors))
+## Feat 12
+-
+;Combat Seamstress, manipulate
+## :a:
+**Prerequisites** Lattice Weave
+-
+Move one anchor of a thread you can see up to 15 feet to another square, terrain feature, or unattended object within your thread range. The thread must still obey your maximum thread length and does not trigger effects during this movement.
+)
+}
+
+#### 14th level ((++14th level Feats))
+
+specialfeat {
+item (
+# Tanglefall ((+++Tanglefall))
+## Feat 14
+-
+;Combat Seamstress
+## :aa:
+**Prerequisites** Lattice Weave
+-
+Create a dense web of threads in a 10-foot burst within your thread range. Place up to your maximum number of threads with anchors in the area; these threads count against your thread limit and last for 1 minute.
+)
+}
+
+=
+
+specialfeat {
+item (
+# Masterful Pull ((+++Masterful Pull))
+## Feat 14
+-
+;Combat Seamstress
+## :r:
+**Prerequisites** Tether Weave
+-
+**Trigger** A tethered creature critically fails a check against one of your tether effects.
+-
+Pull the creature up to 10 feet closer to you. This movement does not trigger reactions, and the creature is off-guard to you until the start of your next turn.
+)
+}
+
+specialfeat {
+item (
+# Guardian's Reinforcement ((+++Guardian's Reinforcement))
+## Feat 14
+-
+;Combat Seamstress
+**Prerequisites** Tether Weave
+-
+When you prepare a protective bind, you can spend 1 additional action to strengthen that effect. If you do, increase the chosen resistance by 5, the saving throw bonus by 1, or the temporary HP granted by 10.
+)
+}
+
+specialfeat {
+item (
+# Living Fabric Bind ((+++Living Fabric Bind))
+## Feat 14
+-
+;Combat Seamstress, manipulate
+## :aa:
+You animate fabric you have touched since your last daily preparations within your thread range to restrain a creature adjacent to that fabric. The target must attempt a Reflex save against your class DC.
+
+**Critical Success** The target is unaffected and is temporarily immune to Living Fabric Bind for 1 minute.  
+
+**Success** The target is unaffected.  
+
+**Failure** The target is restrained until the start of your next turn.  
+
+**Critical Failure** The target is restrained until the end of your next turn.
+)
+}
+
+#### 16th level ((++16th level Feats))
+
+specialfeat {
+item (
+# Threadmastery ((+++Threadmastery))
+## Feat 16
+-
+;Combat Seamstress
+Increase your maximum number of threads by 1 and your maximum thread length by 30 feet.
+)
+}
+
+specialfeat {
+item (
+# Lattice Overload ((+++Lattice Overload))
+## Feat 16
+-
+;Combat Seamstress
+## :aaa:
+**Prerequisites** Lattice Weave
+-
+You can carpet an area with threads that persist until your next daily preparations. Create up to your maximum number of threads with anchors in a 20-foot burst within your thread range. These threads count against your thread limit.
+)
+}
+
+|
+
+specialfeat {
+item (
+# Threaded Bulwark ((+++Threaded Bulwark))
+## Feat 16
+-
+;Combat Seamstress
+## :aa:
+**Prerequisites** Tether Weave
+-
+Fully wrap a tethered ally within your thread range in defensive bindings. Until the start of your next turn, the first time the ally would take damage, it gains temporary HP equal to 8 + your level, then the bind is expended. Any remaining temporary HP are lost when the bind expires.
+)
+}
+
+specialfeat {
+item (
+# Living Fabric Mastery ((+++Living Fabric Mastery))
+## Feat 16
+-
+;Combat Seamstress
+You can have two Living Fabric structures at a time. If you create a third, choose one to end.
+)
+}
+
+specialfeat {
+item (
+# Seamripper's Precision ((+++Seamripper's Precision))
+## Feat 16
+-
+;Combat Seamstress
+Your tailor scissors Strikes ignore 5 points of physical resistance. If the target is affected by one of your threads or tethers, ignore 10 points of physical resistance instead.
+)
+}
+
+#### 18th level ((++18th level Feats))
+
+specialfeat {
+item (
+# Living Stitch ((+++Living Stitch))
+## Feat 18
+-
+;Combat Seamstress
+## :r:
+**Frequency** once per day  
+**Trigger** A creature within your thread range wearing or attached to fabric would be hit by an attack, would take falling damage, or ends its movement.
+-
+You animate nearby fabric you have touched since your last daily preparations. Choose one effect.
+
+* **Block** The triggering creature gains a +2 circumstance bonus to AC against the triggering attack. If the attack still hits, reduce the damage by 10.
+* **Catch** Treat the triggering fall as 60 feet shorter and the creature lands on its feet.
+* **Reposition** Move the triggering creature up to 10 feet to a square you can see within your thread range. This movement does not trigger reactions. An unwilling creature can attempt a Reflex save against your class DC to resist this movement.
+)
+}
+
+=
+
+specialfeat {
+item (
+# Sever and Rearm ((+++Sever and Rearm))
+## Feat 18
+-
+;Combat Seamstress
+## :r:
+**Trigger** You sever a thread or tether.
+-
+Immediately re-anchor the severed thread or tether to a valid anchor within your thread range. This does not increase your number of threads and must obey maximum thread length.
+)
+}
+
+specialfeat {
+item (
+# Party Exemption Major ((+++Party Exemption Major))
+## Feat 18
+-
+;Combat Seamstress
+You no longer need to designate exempt creatures. All allies are automatically exempt from your environmental threads and their action costs.
+)
+}
+
+specialfeat {
+item (
+# Dimensional Snag ((+++Dimensional Snag))
+## Feat 18
+-
+;Combat Seamstress
+## :r:
+**Prerequisites** Tether Weave  
+**Trigger** A tethered creature attempts to teleport, travel between planes, or become extradimensional.
+-
+The triggering creature must attempt a Will save against your class DC. On a failure, the effect fails and the tether remains. On a success, the effect occurs and the tether unravels. On a critical success, the effect occurs and the creature is temporarily immune to Dimensional Snag for 10 minutes.
+)
+}
+
+specialfeat {
+item (
+# Lattice Lock ((+++Lattice Lock))
+## Feat 18
+-
+;Combat Seamstress
+**Prerequisites** Lattice Weave
+-
+Creatures that start their turn in a square crossed by two or more of your threads must attempt a Fortitude save against your class DC. On a failure, the creature is slowed 1 until the end of its turn.
+)
+}
+
+|
+
+#### 20th level ((++20th level Feats))
+
+specialfeat {
+item (
+# Grand Weave ((+++Grand Weave))
+## Feat 20
+-
+;Combat Seamstress
+## :aaa:
+Create a massive battlefield weave using up to your maximum number of threads. Place each thread with valid anchors within your thread range and choose its effect slot. These threads count against your thread limit and last until your next daily preparations.
+)
+}
+
+specialfeat {
+item (
+# Weave Supreme ((+++Weave Supreme))
+## Feat 20
+-
+;Combat Seamstress
+Your mastery of tailoring and thread reaches its absolute peak.
+)
+}
+
+specialfeat {
+item (
+# Fatebound Stitch ((+++Fatebound Stitch))
+## Feat 20
+-
+;Combat Seamstress
+**Prerequisites** Tether Weave
+-
+Once per round, when a tethered creature fails a saving throw against one of your tether effects, it critically fails instead.
+)
+}
+
+specialfeat {
+item (
+# Lattice Mastery ((+++Lattice Mastery))
+## Feat 20
+-
+;Combat Seamstress
+**Prerequisites** Lattice Weave
+-
+When a creature crosses one of your threads during its own movement, it must spend **2 additional actions** instead of 1.
+)
+}
+
+/
+
+---
+
+# Weapons ((+Weapons))
+
+item(
+# Tailor's Scissors ((+Tailor's Scissors))
+## Weapon
+-
+; uncommon, exotic, agile, finesse
+**Price** 2 gp; **Damage** 1d6 slashing; **Bulk** L; **Hands** 1; **Group** Knife; **Range** —
+)
