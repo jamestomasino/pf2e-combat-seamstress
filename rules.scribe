@@ -110,19 +110,19 @@ You mend, modify, and experiment. Armor, clothing, tools, and threads become tes
 | 3 | Weaving Style, general feat, skill increase |
 | 4 | Combat Seamstress feat, skill feat |
 | 5 | Ability boosts, ancestry feat, skill increase, expert Perception |
-| 6 | Combat Seamstress feat, skill feat |
+| 6 | Combat Seamstress feat, skill feat, advanced thread effects |
 | 7 | General feat, skill increase |
 | 8 | Combat Seamstress feat, skill feat |
 | 9 | Skill increase |
-| 10 | Ability boosts, ancestry feat, Combat Seamstress feat, skill feat |
+| 10 | Ability boosts, ancestry feat, Combat Seamstress feat, skill feat, advanced thread effects |
 | 11 | General feat, skill increase |
 | 12 | Combat Seamstress feat, skill feat |
 | 13 | Skill increase |
-| 14 | Combat Seamstress feat, skill feat |
+| 14 | Combat Seamstress feat, skill feat, advanced thread effects |
 | 15 | Ability boosts, ancestry feat, general feat, skill increase |
 | 16 | Combat Seamstress feat, skill feat |
 | 17 | Skill increase |
-| 18 | Combat Seamstress feat, skill feat |
+| 18 | Combat Seamstress feat, skill feat, advanced thread effects |
 | 19 | General feat, skill increase |
 | 20 | Ability boosts, ancestry feat, Combat Seamstress feat, skill feat |
 
@@ -150,17 +150,17 @@ A single thread cannot exceed **30 feet per proficiency rank** in your Combat Se
 Threads persist until severed or until you make your next daily preparations.
 
 ##### Table 1-3: Combat Seamstress Progression Summary ((+Tables))
-Level | Class DC Proficiency | Active Threads | Maximum Thread Length | Advanced Thread Effects | Tailored Defenses Prepared
---- | :---: | :---: | :---: | :---: | :---:
-1 | Trained | 3 | 30 feet | — | —
-2–4 | Trained | 3 | 30 feet | — | 3
-5 | Expert | 5 | 60 feet | — | 5
-6–9 | Expert | 5 | 60 feet | 6th | 5
-10–12 | Expert | 5 | 60 feet | 10th | 5
-13 | Master | 7 | 90 feet | 10th | 7
-14–15 | Master | 7 | 90 feet | 14th | 7
-16–18 | Master | 7 | 90 feet | 18th | 7
-19–20 | Legendary | 9 | 120 feet | 18th | 9
+Level | Class DC Proficiency | Active Threads | Maximum Thread Length | Tailored Defenses Prepared
+--- | :---: | :---: | :---: | :---:
+1 | Trained | 3 | 30 feet | —
+2–4 | Trained | 3 | 30 feet | 3
+5 | Expert | 5 | 60 feet | 5
+6–9 | Expert | 5 | 60 feet | 5
+10–12 | Expert | 5 | 60 feet | 5
+13 | Master | 7 | 90 feet | 7
+14–15 | Master | 7 | 90 feet | 7
+16–18 | Master | 7 | 90 feet | 7
+19–20 | Legendary | 9 | 120 feet | 9
 
 ### Thread Effects
 
@@ -396,7 +396,7 @@ Threads do not prevent teleportation unless an ability explicitly states otherwi
 
 ### Multiple Threads
 
-If a creature crosses multiple threads during a single movement, each thread can trigger independently, subject to any limits imposed by your abilities.
+If a creature encounters multiple threads during a single movement, each thread can trigger independently, subject to any limits imposed by your abilities.
 
 item(
 # Needle Throw ((+Needle Throw)) :a:
@@ -604,7 +604,7 @@ item(
 
 You shape or animate fabric into a more complex or load-bearing form.
 
-You can create a temporary structure or tool made of cloth, such as a rope, ladder, sling, curtain, or padding. The structure persists for **up to 1 minute**. The structure collapses when the duration ends or once it has served its immediate purpose.
+You can create a temporary structure or tool made of cloth, such as a rope, ladder, sling, curtain, or padding. The structure persists for **up to 1 minute**. It can support the weight of a Medium creature and typical gear; greater loads are subject to GM discretion. The structure collapses when the duration ends or once it has served its immediate purpose.
 )
 
 
@@ -661,7 +661,7 @@ For willing tethered allies, you can communicate simple intent through the tethe
 |
 
 ### Hostile Tether Triggers
-A hostile tether is a thread and uses its thread effect slot, but it does not trigger when crossed by other creatures.
+A hostile tether is a thread and uses its thread effect slot as normal, but it does not trigger when encountered by other creatures.
 
 If the tethered creature takes any movement or action that would increase its distance from you, treat the squares that increase distance as difficult terrain for that creature while it is attempting that movement.
 
@@ -670,17 +670,13 @@ Tethers trigger their effects only when the tethered creature **Strides**. Movem
 ### Protective Tethers
 Tethers to willing allies do not impose movement penalties and do not trigger on ally movement.
 
-You spend actions to prepare protective bindings on tethered allies. These bindings last until the start of your next turn or until triggered, whichever comes first.
+You spend actions to prepare protective tethers on tethered allies. These tethers last until the start of your next turn or until triggered, whichever comes first.
 
-
-Protective binds do not use reactions unless an ability explicitly states otherwise.
-
-A prepared protective binding is called a protective bind. Feats such as Guardian's Shield and Threaded Bulwark grant options for these binds.
 
 =
 
-### Protective Bind Triggers
-Protective binds trigger when their specified condition is met, such as taking damage, failing a saving throw, or being targeted by an attack. When a protective bind triggers, it is consumed.
+### Protective Tether Triggers
+Protective tethers trigger when their specified condition is met, such as taking damage, failing a saving throw, or being targeted by an attack. When a protective tether triggers, it is consumed.
 
 ### Breaking Tethers
 A tether unravels if the tethered creature teleports, leaves the plane, or becomes extradimensional. Forced movement does not break tethers.
@@ -692,14 +688,12 @@ Lattice Weave emphasizes dense environmental threading that taxes movement and p
 |
 
 ### Enhanced Environmental Threads
-When a creature crosses one of your threads during its own movement, crossing that thread costs **1 additional action**.
+When a creature encounters one of your threads during its own movement, it triggers normally. If the creature continues moving through the thread’s square, that movement costs **1 additional action**.
 
 This action cost is paid immediately after the triggering movement. If the creature does not have an additional action available, the thread triggers and the creature’s movement ends immediately.
 
 ### Layered Geometry
-If a creature crosses multiple of your threads during a single movement, each thread can trigger independently.
-
-Lattice Weave does not increase your thread cap or maximum thread length. Instead, it increases the cost of ignoring your threads.
+If a creature encounters multiple of your threads during a single movement, each thread can trigger independently.
 
 /
 
@@ -889,7 +883,7 @@ item (
 ## Feat 4
 -
 ;Combat Seamstress
-You automatically know when a thread you created is crossed, triggered, slackened, or severed, and can sense its anchors within 60 feet.
+You automatically know when a thread you created is encountered, triggered, slackened, or severed, and can sense its anchors within 60 feet.
 )
 }
 
@@ -974,7 +968,7 @@ item (
 ;Combat Seamstress
 ## :r:
 **Prerequisites** Lattice Weave  
-**Trigger** A creature crosses one of your threads.
+**Trigger** A creature encounters one of your threads.
 -
 The triggering creature must attempt a Reflex save against your class DC.
 
@@ -1038,7 +1032,7 @@ item (
 ## :a:
 **Prerequisites** Tether Weave
 -
-Prepare a protective bind on a tethered ally within your thread range. Choose one of the following effects. Until the start of your next turn, the first time the ally would take damage or attempt a saving throw, the chosen effect applies, then the bind is expended.
+Prepare a protective tether on a tethered ally within your thread range. Choose one of the following effects. Until the start of your next turn, the first time the ally would take damage or attempt a saving throw, the chosen effect applies, then the tether is expended.
 
 * **Reinforced Binding** The ally gains resistance 5 to all damage from the triggering damage instance (resistance 10 at 15th level).
 * **Steeled Thread** The ally gains a +2 circumstance bonus to the triggering saving throw (+3 at 15th level).
@@ -1079,7 +1073,7 @@ item (
 ;Combat Seamstress
 **Prerequisites** Lattice Weave
 -
-If a creature crosses multiple of your threads during a single movement, each thread can trigger independently.
+If a creature encounters multiple of your threads during a single movement, each thread can trigger independently.
 )
 }
 
@@ -1091,7 +1085,7 @@ item (
 ;Combat Seamstress
 **Prerequisites** Tether Weave
 -
-When you prepare a protective bind, you can spend 1 additional action to prepare a linked bind on a second tethered ally. When one linked bind triggers, the other is immediately expended and grants the same benefit.
+When you prepare a protective tether, you can spend 1 additional action to prepare a linked tether on a second tethered ally. When one linked tether triggers, the other is immediately expended and grants the same benefit.
 )
 }
 
@@ -1218,7 +1212,7 @@ item (
 ;Combat Seamstress
 **Prerequisites** Tether Weave
 -
-When you prepare a protective bind, you can spend 1 additional action to strengthen that effect. If you do, increase the chosen resistance by 5, the saving throw bonus by 1, or the temporary HP granted by 10.
+When you prepare a protective tether, you can spend 1 additional action to strengthen that effect. If you do, increase the chosen resistance by 5, the saving throw bonus by 1, or the temporary HP granted by 10.
 )
 }
 
@@ -1368,7 +1362,7 @@ item (
 ;Combat Seamstress
 **Prerequisites** Lattice Weave
 -
-Creatures that start their turn in a square crossed by two or more of your threads must attempt a Fortitude save against your class DC. On a failure, the creature is slowed 1.
+Creatures that start their turn in a square encountered by two or more of your threads must attempt a Fortitude save against your class DC. On a failure, the creature is slowed 1.
 )
 }
 
@@ -1417,7 +1411,7 @@ item (
 ;Combat Seamstress
 **Prerequisites** Lattice Weave
 -
-When a creature crosses one of your threads during its own movement, it must spend **2 additional actions** instead of 1.
+When a creature encounters one of your threads during its own movement, it must spend **2 additional actions** instead of 1.
 )
 }
 
