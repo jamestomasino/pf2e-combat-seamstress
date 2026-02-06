@@ -484,8 +484,8 @@ item(
 
 Loose strips and layered cloth fly free from your outfit, disrupting your silhouette.
 
-## :r:
-**Trigger** You are targeted by an attack.  
+**Trigger** :r: You are targeted by an attack.
+
 You gain total concealment against that attack and against any further attacks until the start of your next turn, then this tailored defense is expended.
 )
 
@@ -550,8 +550,8 @@ item(
 
 Your stitching loosens at the exact moment to slip away from danger.
 
-## :r:
-**Trigger** You succeed at a Reflex saving throw.  
+**Trigger** You succeed at a Reflex saving throw.
+
 You treat the result as a critical success, then this tailored defense is expended.
 )
 
@@ -610,11 +610,10 @@ You can create a temporary structure or tool made of cloth, such as a rope, ladd
 
 item(
 # Living Fabric Arrest ((+Living Fabric Arrest))
-## :r:
 -
 ; manipulate
 
-**Trigger** You or a creature within range wearing or attached to fabric would take falling damage.
+**Trigger** :r: You or a creature within range wearing or attached to fabric would take falling damage.
 
 You animate nearby fabric to slow the fall.
 
