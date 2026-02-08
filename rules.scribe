@@ -713,17 +713,17 @@ At every level that you gain a Combat Seamstress feat, you can select one of the
 | Tension Sense | 1 |
 | Needle Catch | 1 |
 | Pattern Mark | 1 |
-| Soft Bind | 1 |
+| Cut and Shift | 1 |
 | Seam Guide | 1 |
 | Extra Tailoring | 2 |
-| Threaded Aid | 2 |
+| Cut the Line | 2 |
 | Measured Steps | 2 |
 | Weaver's Appraisal | 2 |
 | Double Set | 2 |
 | Threaded Pull | 2 |
 | Fray Touch | 2 |
 | Anchor Swap | 2 |
-| Tether Tweak | 2 |
+| Thread Tweak | 2 |
 | Thread Sense | 4 |
 | No Shortcuts | 4 |
 | Knotted Ground | 4 |
@@ -862,7 +862,7 @@ item (
 ## :f:
 **Trigger** You Stitch to create a thread.
 -
-Set one anchor as a free action.
+Set one anchor as a free action in your current square.
 )
 }
 
@@ -902,6 +902,8 @@ You gain a +1 circumstance bonus to Perception checks against creatures within y
 )
 }
 
+|
+
 specialfeat {
 item (
 # Needle Catch ((+++Needle Catch))
@@ -930,14 +932,14 @@ Choose a creature within 10 feet of that anchor; you gain a +1 circumstance bonu
 
 specialfeat {
 item (
-# Soft Bind ((+++Soft Bind))
+# Cut and Shift ((+++Cut and Shift))
 ## Feat 1
 -
 ;Combat Seamstress
 ## :f:
-**Trigger** A creature triggers your thread.
+**Trigger** You critically hit a creature with your tailor scissors.
 -
-That creature must Step or lose 5 feet of movement (its choice).
+Attempt to Reposition the target.
 )
 }
 
@@ -967,18 +969,11 @@ Increase the number of Tailored Defenses you can prepare by 1.
 
 specialfeat {
 item (
-# Threaded Aid ((+++Threaded Aid))
+# Cut the Line ((+++Cut the Line))
 ## Feat 2
 -
 ;Combat Seamstress
-## :r:
-**Prerequisites** Tether Weave  
--
-**Trigger** A tethered ally within your thread range attempts a check or saving throw.  
-
-**Requirements** You can sense the ally.
--
-You Aid that ally using an appropriate skill, even if you are not adjacent. Resolve Aid normally.
+When you hit an enemy that is grabbing an ally with a melee tailor scissors Strike, the ally gains a +2 circumstance bonus to Escape from that enemy until the end of its next turn.
 )
 }
 
@@ -988,7 +983,6 @@ item (
 ## Feat 2
 -
 ;Combat Seamstress
--
 Once per turn, you can Step along one of your threads as a free action.
 )
 }
@@ -1009,10 +1003,12 @@ item (
 ## Feat 2
 -
 ;Combat Seamstress
-## :aa:
+## :a:
 Make two Needle Throw Strikes to set both anchors for a single thread. Choose two anchors you can see, each within Needle Throw range. The thread must still obey your maximum thread length. Apply your multiple attack penalty normally.
 )
 }
+
+|
 
 specialfeat {
 item (
@@ -1021,15 +1017,9 @@ item (
 -
 ;Combat Seamstress
 ## :f:
-**Trigger** A creature triggers one of your threads.
+**Trigger** A creature critically fails its saving throw against one of your threads.
 -
-**Saving Throw** Reflex
--
-**Success** The creature is unaffected.
-
-**Failure** You pull it 5 feet toward one of the thread’s anchors.
-
-**Critical Failure** You pull it 10 feet toward one of the thread’s anchors.
+If the creature is no more than one size category larger than you, pull it 10 feet toward one of the thread’s anchors.
 )
 }
 
@@ -1039,10 +1029,13 @@ item (
 ## Feat 2
 -
 ;Combat Seamstress
-## :f:
-**Trigger** You hit a creature that triggered one of your threads since the start of your last turn.
+When you deal damage with your tailor scissors, the target must attempt a Fortitude save against your class DC.
 -
-That creature becomes clumsy 1 until the end of your next turn.
+**Success** The creature is unaffected.
+
+**Failure** The creature is clumsy 1.
+
+**Critical Failure** The creature is clumsy 2.
 )
 }
 
@@ -1053,22 +1046,22 @@ item (
 -
 ;Combat Seamstress
 ## :a:
-**Requirements** You can see the anchor.
+**Requirements** You are within melee reach of the anchor.
 -
-Move one anchor you can see up to 10 feet to another square within your thread range, as long as the thread stays within its maximum length.
+Make a Needle Throw Strike to re-anchor that thread to a new square within your Needle Throw range. The thread must still obey its maximum length.
 )
 }
 
 specialfeat {
 item (
-# Tether Tweak ((+++Tether Tweak))
+# Thread Tweak ((+++Thread Tweak))
 ## Feat 2
 -
 ;Combat Seamstress
-## :f:
-**Trigger** A protective tether you created triggers.
+## :a:
+**Requirements** You are within melee reach of one of your threads.
 -
-The tethered ally gains a +1 circumstance bonus to AC until the start of your next turn.
+Change that thread’s effect slot to another effect you know.
 )
 }
 
