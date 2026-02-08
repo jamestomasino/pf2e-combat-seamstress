@@ -734,7 +734,7 @@ At every level that you gain a Combat Seamstress feat, you can select one of the
 | Pin the Hem | 4 |
 | Veiled Thread | 4 |
 | Distant Stitch | 4 |
-| Needle Net | 4 |
+| Living Fabric Snare | 4 |
 
 |
 
@@ -1187,22 +1187,20 @@ Increase your thread range by 10 feet.
 
 specialfeat {
 item (
-# Needle Net ((+++Needle Net))
+# Living Fabric Snare ((+++Living Fabric Snare))
 ## Feat 4
 -
 ;Combat Seamstress
-## :f:
-**Trigger** You set a thread.
+## :a:
+**Requirements** Your living fabric is within 5 feet of a creature.
 -
-You also set a minor trip square adjacent to one anchor.
--
-**Saving Throw** Reflex
+The creature must attempt a Reflex save against your class DC.
 -
 **Success** The creature is unaffected.
 
-**Failure** The creature falls prone.
+**Failure** The creature is off-guard until the end of its next turn.
 
-**Critical Failure** The creature falls prone and its movement ends.
+**Critical Failure** The creature is restrained until the end of its next turn.
 )
 }
 
