@@ -136,9 +136,9 @@ At 1st level, you gain a number of proficiencies that represent your basic train
 ## Threadcraft
 At 1st level, you can create supernatural threads as environmental hazards. They are visible, physical lines of reinforced thread stretched taut between two anchors. Threads do not block movement, line of effect, or line of sight. Instead, they impose consequences when a creature enters a square they occupy.
 
-Unless otherwise stated, threads can only be anchored to **squares, terrain features, or unattended objects**. Anchoring threads to creatures requires a Weaving Style or feat.
-
 |
+
+Unless otherwise stated, threads can only be anchored to **squares, terrain features, or unattended objects**. Anchoring threads to creatures requires a Weaving Style or feat.
 
 ### Thread Limits
 
@@ -707,71 +707,65 @@ At every level that you gain a Combat Seamstress feat, you can select one of the
 | Precise Stitch | 1 |
 | Steady Hand | 1 |
 | Habitual Stitch | 1 |
-| Placeholder Feat 1-1 | 1 |
-| Placeholder Feat 1-2 | 1 |
-| Placeholder Feat 1-3 | 1 |
-| Placeholder Feat 1-4 | 1 |
-| Placeholder Feat 1-5 | 1 |
-| Placeholder Feat 1-6 | 1 |
-| Placeholder Feat 1-7 | 1 |
-| Placeholder Feat 1-8 | 1 |
+| Quick Anchor | 1 |
+| Thread Feint | 1 |
+| Slip-Knot | 1 |
+| Tension Sense | 1 |
+| Needle Catch | 1 |
+| Pattern Mark | 1 |
+| Soft Bind | 1 |
+| Seam Guide | 1 |
 | Extra Tailoring | 2 |
 | Threaded Aid | 2 |
 | Measured Steps | 2 |
 | Weaver's Appraisal | 2 |
-| Placeholder Feat 2-1 | 2 |
-| Placeholder Feat 2-2 | 2 |
-| Placeholder Feat 2-3 | 2 |
-| Placeholder Feat 2-4 | 2 |
-| Placeholder Feat 2-5 | 2 |
+| Double Set | 2 |
+| Threaded Pull | 2 |
+| Fray Touch | 2 |
+| Anchor Swap | 2 |
+| Tether Tweak | 2 |
 | Thread Sense | 4 |
 | No Shortcuts | 4 |
 | Knotted Ground | 4 |
 | Guardian's Thread | 4 |
-| Placeholder Feat 4-1 | 4 |
-| Placeholder Feat 4-2 | 4 |
-| Placeholder Feat 4-3 | 4 |
-| Placeholder Feat 4-4 | 4 |
-| Placeholder Feat 4-5 | 4 |
-| Placeholder Feat 4-6 | 4 |
-| Placeholder Feat 4-7 | 4 |
-
-|
-
-| Feat | Level |
-|:-----|:-----:|
+| Cross-Weave | 4 |
+| Hooked Step | 4 |
+| Thread Echo | 4 |
+| Pin the Hem | 4 |
+| Snagged Momentum | 4 |
+| Distant Stitch | 4 |
+| Needle Net | 4 |
 | Cutter's Reward | 6 |
 | Stake the Line | 6 |
 | Hooked Riposte | 6 |
 | Needle Barricade | 6 |
-| Placeholder Feat 6-1 | 6 |
-| Placeholder Feat 6-2 | 6 |
-| Placeholder Feat 6-3 | 6 |
-| Placeholder Feat 6-4 | 6 |
-| Placeholder Feat 6-5 | 6 |
-| Placeholder Feat 6-6 | 6 |
+| Hard Pull | 6 |
+| Threaded Denial | 6 |
+| Chain Trigger | 6 |
+| Tension Spike | 6 |
+| Lattice Drag | 6 |
+| Guarded Anchor | 6 |
 | Snare and Pull | 8 |
 | Lattice Step | 8 |
 | Worked Ground | 8 |
 | Guardian's Shield | 8 |
-| Placeholder Feat 8-1 | 8 |
-| Placeholder Feat 8-2 | 8 |
-| Placeholder Feat 8-3 | 8 |
-| Placeholder Feat 8-4 | 8 |
-| Placeholder Feat 8-5 | 8 |
-| Placeholder Feat 8-6 | 8 |
-| Placeholder Feat 8-7 | 8 |
+| Pattern Lock | 8 |
+| Weighted Stitch | 8 |
+| Double Exemption | 8 |
+| Tether Split | 8 |
+| Needle Barrage | 8 |
+| Cross-Thread | 8 |
+| Anchored Break | 8 |
 | Powerful Threads | 10 |
 | Reinforced Lattice | 10 |
 | Coordinated Stitch | 10 |
 | Serrated Shears | 10 |
-| Placeholder Feat 10-1 | 10 |
-| Placeholder Feat 10-2 | 10 |
-| Placeholder Feat 10-3 | 10 |
-| Placeholder Feat 10-4 | 10 |
-| Placeholder Feat 10-5 | 10 |
-
-=
+| Thread Mirror | 10 |
+| Fateful Snare | 10 |
+| Lattice Sweep | 10 |
+| Tether of Resolve | 10 |
+| Stitch and Slide | 10 |
+|
 
 | Feat | Level |
 |:-----|:-----:|
@@ -781,45 +775,38 @@ At every level that you gain a Combat Seamstress feat, you can select one of the
 | Patterned Opening | 12 |
 | Stitched Warning | 12 |
 | Shifting Anchors | 12 |
-| Placeholder Feat 12-1 | 12 |
-| Placeholder Feat 12-2 | 12 |
-| Placeholder Feat 12-3 | 12 |
+| Crippling Thread | 12 |
+| Woven Wall | 12 |
+| Chain Pull | 12 |
 | Tanglefall | 14 |
 | Masterful Pull | 14 |
 | Guardian's Reinforcement | 14 |
 | Living Fabric Bind | 14 |
-| Placeholder Feat 14-1 | 14 |
-| Placeholder Feat 14-2 | 14 |
-| Placeholder Feat 14-3 | 14 |
-| Placeholder Feat 14-4 | 14 |
-| Placeholder Feat 14-5 | 14 |
+| Total Entanglement | 14 |
+| Tether Collapse | 14 |
+| Thread Conduit | 14 |
+| Web of Blades | 14 |
+| Stitched Silence | 14 |
 | Threadmastery | 16 |
 | Lattice Overload | 16 |
 | Threaded Bulwark | 16 |
 | Living Fabric Mastery | 16 |
 | Seamripper's Precision | 16 |
-| Placeholder Feat 16-1 | 16 |
-| Placeholder Feat 16-2 | 16 |
+| Master Lattice | 16 |
+| Seam Sever | 16 |
 | Living Stitch | 18 |
 | Sever and Rearm | 18 |
 | Party Exemption Major | 18 |
 | Dimensional Snag | 18 |
-
-|
-
-
-| Feat | Level |
-|:-----|:-----:|
 | Lattice Lock | 18 |
-| Placeholder Feat 18-1 | 18 |
+| Absolute Snare | 18 |
 | Grand Weave | 20 |
 | Weave Supreme | 20 |
 | Fatebound Stitch | 20 |
 | Lattice Mastery | 20 |
-| Placeholder Feat 20-1 | 20 |
-| Placeholder Feat 20-2 | 20 |
-| Placeholder Feat 20-3 | 20 |
-
+| Grand Pattern | 20 |
+| Thread Dominion | 20 |
+| Fatewrought Lattice | 20 |
 =
 
 #### 1st level ((++1st level Feats))
@@ -856,87 +843,101 @@ During your daily preparations, you can repair one worn or damaged non-magical g
 
 specialfeat {
 item (
-# Placeholder Feat 1-1 ((+++Placeholder Feat 1-1))
+# Quick Anchor ((+++Quick Anchor))
 ## Feat 1
 -
 ;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+## :f:
+**Trigger** You Stitch to create a thread.
+-
+Set one anchor as a free action.
 )
 }
 
 specialfeat {
 item (
-# Placeholder Feat 1-2 ((+++Placeholder Feat 1-2))
+# Thread Feint ((+++Thread Feint))
 ## Feat 1
 -
 ;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+## :f:
+**Trigger** A creature triggers one of your threads.
+-
+That creature is off-guard to you until the end of your next turn.
 )
 }
 
 specialfeat {
 item (
-# Placeholder Feat 1-3 ((+++Placeholder Feat 1-3))
+# Slip-Knot ((+++Slip-Knot))
 ## Feat 1
 -
 ;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+## :f:
+**Trigger** A creature moves through one of your threads.
+-
+Reduce its Speed by 5 feet for that movement.
 )
 }
 
 specialfeat {
 item (
-# Placeholder Feat 1-4 ((+++Placeholder Feat 1-4))
+# Tension Sense ((+++Tension Sense))
 ## Feat 1
 -
 ;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
-)
-}
-
-|
-
-specialfeat {
-item (
-# Placeholder Feat 1-5 ((+++Placeholder Feat 1-5))
-## Feat 1
--
-;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+You gain a +1 circumstance bonus to Perception checks against creatures within your thread range.
 )
 }
 
 specialfeat {
 item (
-# Placeholder Feat 1-6 ((+++Placeholder Feat 1-6))
+# Needle Catch ((+++Needle Catch))
 ## Feat 1
 -
 ;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+## :r:
+**Trigger** A ranged attack’s line passes through a square containing one of your threads.
+-
+Reduce the damage dealt by 2 + your level.
 )
 }
 
 specialfeat {
 item (
-# Placeholder Feat 1-7 ((+++Placeholder Feat 1-7))
+# Pattern Mark ((+++Pattern Mark))
 ## Feat 1
 -
 ;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+## :f:
+**Trigger** You set an anchor for a thread.
+-
+Choose a creature within 10 feet of that anchor; you gain a +1 circumstance bonus to your next Strike against it before the end of your next turn.
 )
 }
 
 specialfeat {
 item (
-# Placeholder Feat 1-8 ((+++Placeholder Feat 1-8))
+# Soft Bind ((+++Soft Bind))
 ## Feat 1
 -
 ;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+## :f:
+**Trigger** A creature triggers your thread.
+-
+That creature must Step or lose 5 feet of movement (its choice).
 )
 }
 
-=
+specialfeat {
+item (
+# Seam Guide ((+++Seam Guide))
+## Feat 1
+-
+;Combat Seamstress
+Squares that contain your threads are not difficult terrain for you.
+)
+}
 
 #### 2nd level ((++2nd level Feats))
 
@@ -990,57 +991,72 @@ You can use Crafting to Recall Knowledge about creatures wearing armor or clothi
 
 specialfeat {
 item (
-# Placeholder Feat 2-1 ((+++Placeholder Feat 2-1))
+# Double Set ((+++Double Set))
 ## Feat 2
 -
 ;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
-)
-}
-
-|
-
-specialfeat {
-item (
-# Placeholder Feat 2-2 ((+++Placeholder Feat 2-2))
-## Feat 2
--
-;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+## :aa:
+Make two Needle Throw Strikes to set both anchors for a single thread. Choose two anchors you can see, each within Needle Throw range. The thread must still obey your maximum thread length. Apply your multiple attack penalty normally.
 )
 }
 
 specialfeat {
 item (
-# Placeholder Feat 2-3 ((+++Placeholder Feat 2-3))
+# Threaded Pull ((+++Threaded Pull))
 ## Feat 2
 -
 ;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+## :f:
+**Trigger** A creature triggers one of your threads.
+-
+**Saving Throw** Reflex
+-
+**Success** The creature is unaffected.
+
+**Failure** You pull it 5 feet toward one of the thread’s anchors.
+
+**Critical Failure** You pull it 10 feet toward one of the thread’s anchors.
 )
 }
 
 specialfeat {
 item (
-# Placeholder Feat 2-4 ((+++Placeholder Feat 2-4))
+# Fray Touch ((+++Fray Touch))
 ## Feat 2
 -
 ;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+## :f:
+**Trigger** You hit a creature that triggered one of your threads since the start of your last turn.
+-
+That creature becomes clumsy 1 until the end of your next turn.
 )
 }
 
 specialfeat {
 item (
-# Placeholder Feat 2-5 ((+++Placeholder Feat 2-5))
+# Anchor Swap ((+++Anchor Swap))
 ## Feat 2
 -
 ;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+## :a:
+**Requirements** You can see the anchor.
+-
+Move one anchor you can see up to 10 feet to another square within your thread range, as long as the thread stays within its maximum length.
 )
 }
 
-=
+specialfeat {
+item (
+# Tether Tweak ((+++Tether Tweak))
+## Feat 2
+-
+;Combat Seamstress
+## :f:
+**Trigger** A protective tether you created triggers.
+-
+The tethered ally gains a +1 circumstance bonus to AC until the start of your next turn.
+)
+}
 
 #### 4th level ((++4th level Feats))
 
@@ -1096,77 +1112,93 @@ You gain the following protective tether effects, which you can choose when you 
 
 specialfeat {
 item (
-# Placeholder Feat 4-1 ((+++Placeholder Feat 4-1))
+# Cross-Weave ((+++Cross-Weave))
 ## Feat 4
 -
 ;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
-)
-}
-
-|
-
-specialfeat {
-item (
-# Placeholder Feat 4-2 ((+++Placeholder Feat 4-2))
-## Feat 4
--
-;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+If two of your threads are adjacent, the square between them is difficult terrain for enemies until the start of your next turn after a creature triggers either thread.
 )
 }
 
 specialfeat {
 item (
-# Placeholder Feat 4-3 ((+++Placeholder Feat 4-3))
+# Hooked Step ((+++Hooked Step))
 ## Feat 4
 -
 ;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+## :r:
+**Trigger** A creature triggers your thread.
+-
+That creature can’t Step until the end of its next turn.
 )
 }
 
 specialfeat {
 item (
-# Placeholder Feat 4-4 ((+++Placeholder Feat 4-4))
+# Thread Echo ((+++Thread Echo))
 ## Feat 4
 -
 ;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+A creature that triggers one of your threads cannot trigger that same thread again until the start of its next turn.
 )
 }
 
 specialfeat {
 item (
-# Placeholder Feat 4-5 ((+++Placeholder Feat 4-5))
+# Pin the Hem ((+++Pin the Hem))
 ## Feat 4
 -
 ;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+## :f:
+**Trigger** A creature triggers your thread.
+-
+That creature is off-guard to all allies until the end of your next turn.
 )
 }
 
 specialfeat {
 item (
-# Placeholder Feat 4-6 ((+++Placeholder Feat 4-6))
+# Snagged Momentum ((+++Snagged Momentum))
 ## Feat 4
 -
 ;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+## :f:
+**Trigger** A creature Strides through one of your threads.
+-
+Reduce its remaining movement to 0. A creature can be affected this way once per round.
 )
 }
 
 specialfeat {
 item (
-# Placeholder Feat 4-7 ((+++Placeholder Feat 4-7))
+# Distant Stitch ((+++Distant Stitch))
 ## Feat 4
 -
 ;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+Increase your thread range by 10 feet.
 )
 }
 
-=
+specialfeat {
+item (
+# Needle Net ((+++Needle Net))
+## Feat 4
+-
+;Combat Seamstress
+## :f:
+**Trigger** You set a thread.
+-
+You also set a minor trip square adjacent to one anchor.
+-
+**Saving Throw** Reflex
+-
+**Success** The creature is unaffected.
+
+**Failure** The creature falls prone.
+
+**Critical Failure** The creature falls prone and its movement ends.
+)
+}
 
 #### 6th level ((++6th level Feats))
 
@@ -1229,67 +1261,98 @@ You snap a tight weave of needles into the creature’s path. The triggering cre
 
 specialfeat {
 item (
-# Placeholder Feat 6-1 ((+++Placeholder Feat 6-1))
+# Hard Pull ((+++Hard Pull))
 ## Feat 6
 -
 ;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
-)
-}
-
-|
-
-specialfeat {
-item (
-# Placeholder Feat 6-2 ((+++Placeholder Feat 6-2))
-## Feat 6
+## :f:
+**Trigger** A creature triggers your thread.
 -
-;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
-)
-}
-
-specialfeat {
-item (
-# Placeholder Feat 6-3 ((+++Placeholder Feat 6-3))
-## Feat 6
+Pull the creature 10 feet toward one of the thread’s anchors.
 -
-;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+**Saving Throw** Fortitude
+-
+**Success** The creature isn’t knocked prone.
+
+**Failure** The creature falls prone.
+
+**Critical Failure** The creature falls prone and is slowed 1 until the end of its next turn.
 )
 }
 
 specialfeat {
 item (
-# Placeholder Feat 6-4 ((+++Placeholder Feat 6-4))
+# Threaded Denial ((+++Threaded Denial))
 ## Feat 6
 -
 ;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+## :r:
+**Trigger** A creature crosses your thread.
+-
+That creature can’t use reactions until the start of its next turn.
 )
 }
 
 specialfeat {
 item (
-# Placeholder Feat 6-5 ((+++Placeholder Feat 6-5))
+# Chain Trigger ((+++Chain Trigger))
 ## Feat 6
 -
 ;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+## :f:
+**Trigger** A creature triggers one of your threads.
+-
+Choose a connected thread to also apply its effect to that creature.
 )
 }
 
 specialfeat {
 item (
-# Placeholder Feat 6-6 ((+++Placeholder Feat 6-6))
+# Tension Spike ((+++Tension Spike))
 ## Feat 6
 -
 ;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+## :f:
+**Trigger** A creature triggers your thread.
+-
+**Saving Throw** Fortitude
+-
+**Success** The creature is unaffected.
+
+**Failure** The creature is slowed 1 for 1 round.
+
+**Critical Failure** The creature is slowed 2 for 1 round.
 )
 }
 
-=
+specialfeat {
+item (
+# Lattice Drag ((+++Lattice Drag))
+## Feat 6
+-
+;Combat Seamstress
+If a tethered creature moves, it takes 1d6 slashing damage for every 10 feet it moves (once per round).
+)
+}
+
+specialfeat {
+item (
+# Guarded Anchor ((+++Guarded Anchor))
+## Feat 6
+-
+;Combat Seamstress
+## :r:
+**Trigger** An enemy targets one of your anchors with an action.
+-
+**Saving Throw** Will
+-
+**Success** The action is not disrupted.
+
+**Failure** The action is wasted.
+
+**Critical Failure** The action is wasted and the creature is off-guard to you until the end of its turn.
+)
+}
 
 #### 8th level ((++8th level Feats))
 
@@ -1345,77 +1408,97 @@ You gain the following protective tether effects, which you can choose when you 
 
 specialfeat {
 item (
-# Placeholder Feat 8-1 ((+++Placeholder Feat 8-1))
+# Pattern Lock ((+++Pattern Lock))
 ## Feat 8
 -
 ;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
-)
-}
-
-|
-
-specialfeat {
-item (
-# Placeholder Feat 8-2 ((+++Placeholder Feat 8-2))
-## Feat 8
+## :f:
+**Trigger** A creature triggers your thread.
 -
-;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
-)
-}
-
-specialfeat {
-item (
-# Placeholder Feat 8-3 ((+++Placeholder Feat 8-3))
-## Feat 8
+**Saving Throw** Fortitude
 -
-;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+**Success** The creature is unaffected.
+
+**Failure** The creature can’t Step until the end of its next turn.
+
+**Critical Failure** The creature can’t Step and is slowed 1 until the end of its next turn.
 )
 }
 
 specialfeat {
 item (
-# Placeholder Feat 8-4 ((+++Placeholder Feat 8-4))
+# Weighted Stitch ((+++Weighted Stitch))
 ## Feat 8
 -
 ;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+Squares containing your threads count as one step worse difficult terrain for enemies.
 )
 }
 
 specialfeat {
 item (
-# Placeholder Feat 8-5 ((+++Placeholder Feat 8-5))
+# Double Exemption ((+++Double Exemption))
 ## Feat 8
 -
 ;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+Increase your exempt creature limit by 1.
 )
 }
 
 specialfeat {
 item (
-# Placeholder Feat 8-6 ((+++Placeholder Feat 8-6))
+# Tether Split ((+++Tether Split))
 ## Feat 8
 -
 ;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+## :f:
+**Trigger** You create a protective tether.
+-
+You can link a second ally; when the tether triggers, both allies gain the benefit.
 )
 }
 
 specialfeat {
 item (
-# Placeholder Feat 8-7 ((+++Placeholder Feat 8-7))
+# Needle Barrage ((+++Needle Barrage))
 ## Feat 8
 -
 ;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+## :r:
+**Trigger** A creature triggers your thread.
+-
+Make a tailor scissors Strike against it.
 )
 }
 
-=
+specialfeat {
+item (
+# Cross-Thread ((+++Cross-Thread))
+## Feat 8
+-
+;Combat Seamstress
+## :f:
+**Trigger** A creature enters a square where two of your threads intersect.
+-
+**Saving Throw** Reflex
+-
+**Success** The creature is unaffected.
+
+**Failure** The creature takes 1d6 slashing damage.
+
+**Critical Failure** The creature takes 2d6 slashing damage.
+)
+}
+
+specialfeat {
+item (
+# Anchored Break ((+++Anchored Break))
+## Feat 8
+-
+;Combat Seamstress
+If a creature attempts to sever one of your threads, it must spend 2 actions instead of 1.
+)
+}
 
 #### 10th level ((++10th level Feats))
 
@@ -1465,59 +1548,74 @@ When you critically hit with your tailor scissors, increase your Tailor's Cut da
 )
 }
 
-|
-
 specialfeat {
 item (
-# Placeholder Feat 10-1 ((+++Placeholder Feat 10-1))
+# Thread Mirror ((+++Thread Mirror))
 ## Feat 10
 -
 ;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+## :f:
+**Trigger** A thread triggers.
+-
+Swap its effect slot with a connected thread’s effect slot for that trigger.
 )
 }
 
 specialfeat {
 item (
-# Placeholder Feat 10-2 ((+++Placeholder Feat 10-2))
+# Fateful Snare ((+++Fateful Snare))
 ## Feat 10
 -
 ;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+## :f:
+**Trigger** The first time per round a foe triggers your thread.
+-
+That foe is off-guard and frightened 1.
 )
 }
 
 specialfeat {
 item (
-# Placeholder Feat 10-3 ((+++Placeholder Feat 10-3))
+# Lattice Sweep ((+++Lattice Sweep))
 ## Feat 10
 -
 ;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+## :aa:
+Move one anchor up to 15 feet, sweeping it through squares; creatures crossed by the moving anchor trigger the thread.
 )
 }
 
 specialfeat {
 item (
-# Placeholder Feat 10-4 ((+++Placeholder Feat 10-4))
+# Tether of Resolve ((+++Tether of Resolve))
 ## Feat 10
 -
 ;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+## :f:
+**Trigger** A protective tether you created triggers.
+-
+The ally gains resistance 10 to physical damage until the start of your next turn.
 )
 }
 
 specialfeat {
 item (
-# Placeholder Feat 10-5 ((+++Placeholder Feat 10-5))
+# Stitch and Slide ((+++Stitch and Slide))
 ## Feat 10
 -
 ;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+## :f:
+**Trigger** A creature triggers your thread.
+-
+**Saving Throw** Reflex
+-
+**Success** The creature is unaffected.
+
+**Failure** You slide the creature 10 feet along the thread’s path.
+
+**Critical Failure** You slide the creature 15 feet along the thread’s path.
 )
 }
-
-=
 
 #### 12th level ((++12th level Feats))
 
@@ -1592,39 +1690,48 @@ Move one anchor of a thread you can see up to 15 feet to another square, terrain
 )
 }
 
-|
-
 specialfeat {
 item (
-# Placeholder Feat 12-1 ((+++Placeholder Feat 12-1))
+# Crippling Thread ((+++Crippling Thread))
 ## Feat 12
 -
 ;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+## :f:
+**Trigger** A creature triggers your thread.
+-
+**Saving Throw** Fortitude
+-
+**Success** The creature is unaffected.
+
+**Failure** The creature is immobilized until the end of its next turn.
+
+**Critical Failure** The creature is immobilized and slowed 1 until the end of its next turn.
 )
 }
 
 specialfeat {
 item (
-# Placeholder Feat 12-2 ((+++Placeholder Feat 12-2))
+# Woven Wall ((+++Woven Wall))
 ## Feat 12
 -
 ;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+## :aa:
+Create a temporary 10-foot wall between two anchors; the wall lasts 1 round and blocks movement.
 )
 }
 
 specialfeat {
 item (
-# Placeholder Feat 12-3 ((+++Placeholder Feat 12-3))
+# Chain Pull ((+++Chain Pull))
 ## Feat 12
 -
 ;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+## :f:
+**Trigger** A creature triggers one of your threads.
+-
+Choose up to two connected threads to also affect it.
 )
 }
-
-=
 
 #### 14th level ((++14th level Feats))
 
@@ -1687,59 +1794,83 @@ You animate fabric you have touched since your last daily preparations within yo
 )
 }
 
-|
-
 specialfeat {
 item (
-# Placeholder Feat 14-1 ((+++Placeholder Feat 14-1))
+# Total Entanglement ((+++Total Entanglement))
 ## Feat 14
 -
 ;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+## :f:
+**Trigger** A creature triggers your thread.
+-
+**Saving Throw** Fortitude
+-
+**Success** The creature is unaffected.
+
+**Failure** The creature is slowed 1 for 2 rounds.
+
+**Critical Failure** The creature is slowed 2 for 2 rounds.
 )
 }
 
 specialfeat {
 item (
-# Placeholder Feat 14-2 ((+++Placeholder Feat 14-2))
+# Tether Collapse ((+++Tether Collapse))
 ## Feat 14
 -
 ;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+When a tether breaks or ends, a 10-foot burst centered on it becomes difficult terrain for 1 round.
 )
 }
 
 specialfeat {
 item (
-# Placeholder Feat 14-3 ((+++Placeholder Feat 14-3))
+# Thread Conduit ((+++Thread Conduit))
 ## Feat 14
 -
 ;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+## :a:
+Once per round, you can move an anchor between connected threads without breaking them, as long as length limits are respected.
 )
 }
 
 specialfeat {
 item (
-# Placeholder Feat 14-4 ((+++Placeholder Feat 14-4))
+# Web of Blades ((+++Web of Blades))
 ## Feat 14
 -
 ;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+## :f:
+**Trigger** A creature triggers your thread.
+-
+**Saving Throw** Fortitude
+-
+**Success** The creature takes 1d6 persistent bleed damage.
+
+**Failure** The creature takes 2d6 persistent bleed damage.
+
+**Critical Failure** The creature takes 2d6 persistent bleed damage and becomes clumsy 1 until the end of its next turn.
 )
 }
 
 specialfeat {
 item (
-# Placeholder Feat 14-5 ((+++Placeholder Feat 14-5))
+# Stitched Silence ((+++Stitched Silence))
 ## Feat 14
 -
 ;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+## :f:
+**Trigger** A creature triggers your thread.
+-
+**Saving Throw** Will
+-
+**Success** The creature is unaffected.
+
+**Failure** The creature can’t cast spells with verbal components until the end of its next turn.
+
+**Critical Failure** As failure, and the creature is stupefied 1 until the end of its next turn.
 )
 }
-
-=
 
 #### 16th level ((++16th level Feats))
 
@@ -1799,29 +1930,28 @@ Your tailor scissors Strikes ignore 5 points of physical resistance. If the targ
 )
 }
 
-|
-
 specialfeat {
 item (
-# Placeholder Feat 16-1 ((+++Placeholder Feat 16-1))
+# Master Lattice ((+++Master Lattice))
 ## Feat 16
 -
 ;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+All squares containing your threads are difficult terrain for enemies but not for you or your allies.
 )
 }
 
 specialfeat {
 item (
-# Placeholder Feat 16-2 ((+++Placeholder Feat 16-2))
+# Seam Sever ((+++Seam Sever))
 ## Feat 16
 -
 ;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+## :f:
+**Trigger** You critically hit with tailor scissors.
+-
+Sever all threads attached to the target and apply their effects.
 )
 }
-
-=
 
 #### 18th level ((++18th level Feats))
 
@@ -1880,8 +2010,6 @@ The triggering creature must attempt a Will save against your class DC. On a fai
 )
 }
 
-|
-
 specialfeat {
 item (
 # Lattice Lock ((+++Lattice Lock))
@@ -1896,15 +2024,22 @@ Creatures that start their turn in a square encountered by two or more of your t
 
 specialfeat {
 item (
-# Placeholder Feat 18-1 ((+++Placeholder Feat 18-1))
+# Absolute Snare ((+++Absolute Snare))
 ## Feat 18
 -
 ;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+## :f:
+**Trigger** A creature triggers your thread.
+-
+**Saving Throw** Fortitude
+-
+**Success** The creature is unaffected.
+
+**Failure** The creature is immobilized and slowed 1 for 1 round.
+
+**Critical Failure** The creature is immobilized and slowed 2 for 1 round.
 )
 }
-
-=
 
 #### 20th level ((++20th level Feats))
 
@@ -1953,35 +2088,42 @@ When a creature encounters one of your threads during its own movement, it must 
 )
 }
 
-|
-
 specialfeat {
 item (
-# Placeholder Feat 20-1 ((+++Placeholder Feat 20-1))
+# Grand Pattern ((+++Grand Pattern))
 ## Feat 20
 -
 ;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+## :a:
+**Frequency** once per day
+-
+Set all anchors for all of your threads with a single action.
 )
 }
 
 specialfeat {
 item (
-# Placeholder Feat 20-2 ((+++Placeholder Feat 20-2))
+# Thread Dominion ((+++Thread Dominion))
 ## Feat 20
 -
 ;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+## :f:
+**Trigger** A creature triggers your thread.
+-
+That creature must spend 2 actions to leave its square before the end of its next turn.
 )
 }
 
 specialfeat {
 item (
-# Placeholder Feat 20-3 ((+++Placeholder Feat 20-3))
+# Fatewrought Lattice ((+++Fatewrought Lattice))
 ## Feat 20
 -
 ;Combat Seamstress
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+## :f:
+**Trigger** A creature triggers your thread and attempts a saving throw against it.
+-
+That creature must reroll the saving throw and take the worse result.
 )
 }
 
@@ -1998,4 +2140,3 @@ item(
 ; uncommon, exotic, agile, finesse
 **Price** 2 gp; **Damage** 1d6 slashing; **Bulk** L; **Hands** 1; **Group** Knife; **Range** —
 )
-
