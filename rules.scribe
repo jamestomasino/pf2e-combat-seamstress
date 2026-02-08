@@ -730,9 +730,9 @@ At every level that you gain a Combat Seamstress feat, you can select one of the
 | Guardian's Thread | 4 |
 | Cross-Weave | 4 |
 | Hooked Step | 4 |
-| Thread Echo | 4 |
+| Hemmed Momentum | 4 |
 | Pin the Hem | 4 |
-| Snagged Momentum | 4 |
+| Veiled Thread | 4 |
 | Distant Stitch | 4 |
 | Needle Net | 4 |
 
@@ -1076,6 +1076,7 @@ item (
 -
 ;Combat Seamstress
 **Prerequisites** Lattice Weave
+-
 You automatically know when a thread you created is encountered, triggered, slackened, or severed.
 )
 }
@@ -1098,9 +1099,9 @@ item (
 ## Feat 4
 -
 ;Combat Seamstress
-**Prerequisites** Lattice Weave
+**Prerequisites** Slip-Knot
 -
-When a creature fails its save against one of your threads, it takes a –10-foot status penalty to its Speed until the end of its next turn.
+When Slip-Knot reduces a creature’s Speed, it reduces that Speed by 10 feet instead of 5.
 )
 }
 
@@ -1125,7 +1126,7 @@ item (
 ## Feat 4
 -
 ;Combat Seamstress
-If two of your threads are adjacent, the square between them is difficult terrain for enemies until the start of your next turn after a creature triggers either thread.
+Any square containing two or more of your threads is difficult terrain.
 )
 }
 
@@ -1135,20 +1136,19 @@ item (
 ## Feat 4
 -
 ;Combat Seamstress
-## :r:
-**Trigger** A creature triggers your thread.
--
-That creature can’t Step until the end of its next turn.
+When you hit a creature with your tailor scissors, it can’t Step until the end of its next turn.
 )
 }
 
+|
+
 specialfeat {
 item (
-# Thread Echo ((+++Thread Echo))
+# Hemmed Momentum ((+++Hemmed Momentum))
 ## Feat 4
 -
 ;Combat Seamstress
-A creature that triggers one of your threads cannot trigger that same thread again until the start of its next turn.
+When you hit a creature with your tailor scissors, if it is taking your Tailor's Cut persistent bleed damage, it takes a –10-foot status penalty to its Speed until the end of its next turn.
 )
 }
 
@@ -1159,7 +1159,7 @@ item (
 -
 ;Combat Seamstress
 ## :f:
-**Trigger** A creature triggers your thread.
+**Trigger** A creature fails its saving throw against one of your threads.
 -
 That creature is off-guard to all allies until the end of your next turn.
 )
@@ -1167,14 +1167,11 @@ That creature is off-guard to all allies until the end of your next turn.
 
 specialfeat {
 item (
-# Snagged Momentum ((+++Snagged Momentum))
+# Veiled Thread ((+++Veiled Thread))
 ## Feat 4
 -
 ;Combat Seamstress
-## :f:
-**Trigger** A creature Strides through one of your threads.
--
-Reduce its remaining movement to 0. A creature can be affected this way once per round.
+Choose this as the thread’s effect slot. The thread creates a faint haze along its length; creatures you haven’t exempted are concealed from creatures on the opposite side of the thread, as though a thin wall of fog lay along the line. This effect does not trigger when a creature crosses the thread.
 )
 }
 
