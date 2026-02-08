@@ -735,6 +735,11 @@ At every level that you gain a Combat Seamstress feat, you can select one of the
 | Snagged Momentum | 4 |
 | Distant Stitch | 4 |
 | Needle Net | 4 |
+
+|
+
+| Feat | Level |
+|:-----|:-----:|
 | Cutter's Reward | 6 |
 | Stake the Line | 6 |
 | Hooked Riposte | 6 |
@@ -765,7 +770,8 @@ At every level that you gain a Combat Seamstress feat, you can select one of the
 | Lattice Sweep | 10 |
 | Tether of Resolve | 10 |
 | Stitch and Slide | 10 |
-|
+
+=
 
 | Feat | Level |
 |:-----|:-----:|
@@ -798,6 +804,11 @@ At every level that you gain a Combat Seamstress feat, you can select one of the
 | Sever and Rearm | 18 |
 | Party Exemption Major | 18 |
 | Dimensional Snag | 18 |
+
+|
+
+| Feat | Level |
+|:-----|:-----:|
 | Lattice Lock | 18 |
 | Absolute Snare | 18 |
 | Grand Weave | 20 |
@@ -807,6 +818,7 @@ At every level that you gain a Combat Seamstress feat, you can select one of the
 | Grand Pattern | 20 |
 | Thread Dominion | 20 |
 | Fatewrought Lattice | 20 |
+
 =
 
 #### 1st level ((++1st level Feats))
@@ -939,6 +951,8 @@ Squares that contain your threads are not difficult terrain for you.
 )
 }
 
+=
+
 #### 2nd level ((++2nd level Feats))
 
 specialfeat {
@@ -1057,6 +1071,8 @@ item (
 The tethered ally gains a +1 circumstance bonus to AC until the start of your next turn.
 )
 }
+
+=
 
 #### 4th level ((++4th level Feats))
 
@@ -1199,6 +1215,8 @@ You also set a minor trip square adjacent to one anchor.
 **Critical Failure** The creature falls prone and its movement ends.
 )
 }
+
+=
 
 #### 6th level ((++6th level Feats))
 
@@ -1354,6 +1372,8 @@ item (
 )
 }
 
+=
+
 #### 8th level ((++8th level Feats))
 
 specialfeat {
@@ -1500,6 +1520,8 @@ If a creature attempts to sever one of your threads, it must spend 2 actions ins
 )
 }
 
+=
+
 #### 10th level ((++10th level Feats))
 
 specialfeat {
@@ -1617,6 +1639,8 @@ item (
 )
 }
 
+=
+
 #### 12th level ((++12th level Feats))
 
 specialfeat {
@@ -1732,6 +1756,8 @@ item (
 Choose up to two connected threads to also affect it.
 )
 }
+
+=
 
 #### 14th level ((++14th level Feats))
 
@@ -1872,6 +1898,8 @@ item (
 )
 }
 
+=
+
 #### 16th level ((++16th level Feats))
 
 specialfeat {
@@ -1952,6 +1980,8 @@ item (
 Sever all threads attached to the target and apply their effects.
 )
 }
+
+=
 
 #### 18th level ((++18th level Feats))
 
@@ -2040,6 +2070,8 @@ item (
 **Critical Failure** The creature is immobilized and slowed 2 for 1 round.
 )
 }
+
+=
 
 #### 20th level ((++20th level Feats))
 
