@@ -775,15 +775,14 @@ At every level that you gain a Combat Seamstress feat, you can select one of the
 
 | Feat | Level |
 |:-----|:-----:|
-| Severing Cut | 12 |
+| Severed Fate | 12 |
 | Deepen the Cut | 12 |
 | Thread Network | 12 |
-| Patterned Opening | 12 |
-| Stitched Warning | 12 |
-| Shifting Anchors | 12 |
-| Crippling Thread | 12 |
+| Lifeweave | 12 |
+| Tremor Web | 12 |
+| Heavy Anchor | 12 |
 | Woven Wall | 12 |
-| Chain Pull | 12 |
+| Living Fabric Minion | 12 |
 | Tanglefall | 14 |
 | Masterful Pull | 14 |
 | Guardian's Reinforcement | 14 |
@@ -1302,7 +1301,7 @@ item (
 ## :f:
 **Trigger** One of your threads is triggered.
 -
-Choose a connected thread to also apply its effect to that creature.
+Threads are connected if they share an anchor, including you. Choose another connected thread; the creature is affected by the chosen thread’s effect slot instead of the original.
 )
 }
 
@@ -1626,14 +1625,14 @@ The creature takes 3d6 slashing damage (basic Fortitude save).
 
 specialfeat {
 item (
-# Severing Cut ((+++Severing Cut))
+# Severed Fate ((+++Severed Fate))
 ## Feat 12
 -
 ;Combat Seamstress
 ## :r:
-**Trigger** You hit a creature with your tailor scissors.
+**Prerequisites** Tether Weave
 -
-Attempt to sever one thread or tether attached to the target. Compare the result of the triggering Strike to the thread or tether’s DC; on a success, it is severed.
+Use your tailor's scissors to cut the tether binding a creature. The snap of fortune forces that creature to reroll the most recent d20 roll it made this turn and use the new result.
 )
 }
 
@@ -1643,7 +1642,7 @@ item (
 ## Feat 12
 -
 ;Combat Seamstress
-Increase your Tailor's Cut damage die by one step. If you have Cutter's Reward and the target is already taking persistent bleed damage from your Tailor's Cut, you can increase that bleed damage by one step, to a maximum of 1d10.
+Your tailor scissors gain the fatal d12 trait.
 )
 }
 
@@ -1656,61 +1655,48 @@ item (
 ## :f:
 **Trigger** One of your threads is triggered.
 -
-Threads are connected if they share an anchor or if a chain of your threads links their anchors. Choose another connected thread; the creature is affected by the chosen thread’s effect slot instead of the original. This does not increase the number of effects triggered.
+Threads are connected if they share an anchor, including you. Choose a connected thread to also apply its effect to that creature.
 )
 }
 
 specialfeat {
 item (
-# Patterned Opening ((+++Patterned Opening))
-## Feat 12
--
-;Combat Seamstress
-Once per round, when a creature triggers one of your threads, you gain a +1 circumstance bonus to your next tailor scissors Strike against that creature before the end of your next turn.
-)
-}
-
-specialfeat {
-item (
-# Stitched Warning ((+++Stitched Warning))
+# Lifeweave ((+++Lifeweave))
 ## Feat 12
 -
 ;Combat Seamstress
 **Prerequisites** Tether Weave
 -
-When a hostile tether triggers, the tethered creature is off-guard to you until the start of your next turn.
-)
-}
-
-specialfeat {
-item (
-# Shifting Anchors ((+++Shifting Anchors))
-## Feat 12
--
-;Combat Seamstress, manipulate
 ## :a:
-**Prerequisites** Lattice Weave
--
-Move one anchor of a thread you can see up to 15 feet to another square, terrain feature, or unattended object within your thread range. The thread must still obey your maximum thread length and does not trigger effects during this movement.
+Choose a tethered ally within your thread range. Until the start of your next turn, the next time that ally would take damage from a Strike, you take that damage instead.
 )
 }
 
 specialfeat {
 item (
-# Crippling Thread ((+++Crippling Thread))
+# Tremor Web ((+++Tremor Web))
 ## Feat 12
 -
 ;Combat Seamstress
 ## :f:
-**Trigger** One of your threads is triggered.
+**Trigger** One of your threads is triggered by a creature.
 -
-**Saving Throw** Fortitude
+The thread emits an audible chime. All allies within 30 feet gain a +1 circumstance bonus to Perception and saving throws against the triggering creature until the start of your next turn.
+)
+}
+
+|
+
+specialfeat {
+item (
+# Heavy Anchor ((+++Heavy Anchor))
+## Feat 12
 -
-**Success** The creature is unaffected.
-
-**Failure** The creature is immobilized until the end of its next turn.
-
-**Critical Failure** The creature is immobilized and slowed 1 until the end of its next turn.
+;Combat Seamstress
+## :a:
+**Prerequisites** Tether Weave
+-
+Make a Needle Throw Strike against a flying creature within range. This does not create a thread. On a hit, the creature is weighted down until the end of its next turn. While weighted, it can’t gain altitude unless it succeeds at a Fortitude save against your class DC at the start of its turn.
 )
 }
 
@@ -1720,23 +1706,51 @@ item (
 ## Feat 12
 -
 ;Combat Seamstress
+**Prerequisites** Lattice Weave
+-
 ## :aa:
-Create a temporary 10-foot wall between two anchors; the wall lasts 1 round and blocks movement.
+Sacrifice one of your threads to form a gossamer wall between its anchors. The wall is opaque, 10 feet high, and lasts for 1 minute before dissolving.
+-
+**Hardness** 5; **HP** 20 (BT 10)
+-
+The wall can support up to 4 Bulk.
 )
 }
 
 specialfeat {
 item (
-# Chain Pull ((+++Chain Pull))
+# Living Fabric Minion ((+++Living Fabric Minion))
 ## Feat 12
 -
-;Combat Seamstress
-## :f:
-**Trigger** One of your threads is triggered.
+;Combat Seamstress, concentrate, manipulate, summon
+## :aaa:
+**Requirements** A living fabric target within your thread range.
 -
-Choose up to two connected threads to also affect it.
+You animate that living fabric into a minion of magical cloth (see Living Fabric Minion). This uses your thread range. **Duration** sustained. You can have only one living fabric minion at a time.
 )
 }
+
+item(
+# Living Fabric Minion ((+Living Fabric Minion))
+## Creature -1
+-
+; Medium, mindless
+**Perception** +0; **darkvision**  
+
+**Languages** none (understands its creator)  
+
+**Skills** Stealth +8  
+
+**Str** –4, **Dex** +2, **Con** +0, **Int** –5, **Wis** +0, **Cha** +0  
+
+**Fabric Body** A living fabric minion's body is made of animated cloth. It can't use attack actions. Though it has little physical weight, it can move and use Interact actions to do things such as fetch objects, open unstuck or unlocked doors, hold chairs, and clean. It can't pass through solid objects.  
+
+**AC** 13; **Fort** +0, **Ref** +4, **Will** +0  
+
+**HP** 4; **Immunities** disease, mental, non-magical attacks, paralysis, poison, precision, spirit, unconscious; **Resistances** all damage 5 (except force)  
+
+**Speed** fly 30 feet
+)
 
 =
 
