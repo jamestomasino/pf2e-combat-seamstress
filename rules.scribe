@@ -762,14 +762,14 @@ At every level that you gain a Combat Seamstress feat, you can select one of the
 | Cross-Thread | 8 |
 | Hardened Lines | 8 |
 | Powerful Threads | 10 |
-| Reinforced Lattice | 10 |
-| Coordinated Stitch | 10 |
+| Thread Bomb | 10 |
+| Parallel Tether | 10 |
 | Serrated Shears | 10 |
 | Thread Mirror | 10 |
-| Fateful Snare | 10 |
+| Hidden Weaves | 10 |
 | Lattice Sweep | 10 |
 | Tether of Resolve | 10 |
-| Stitch and Slide | 10 |
+| Tether Jolt | 10 |
 
 =
 
@@ -1220,7 +1220,7 @@ Once per turn, when you hit with your tailor scissors, apply your Tailor's Cut p
 
 specialfeat {
 item (
-# Twin Tether ((+++Twin Tether))
+# Parallel Tether ((+++Parallel Tether))
 ## Feat 6
 -
 ;Combat Seamstress, attack, finesse, ranged, manipulate
@@ -1523,25 +1523,26 @@ Once per turn, when a tethered creature Strides to increase distance, it must su
 
 specialfeat {
 item (
-# Reinforced Lattice ((+++Reinforced Lattice))
+# Thread Bomb ((+++Thread Bomb))
 ## Feat 10
 -
 ;Combat Seamstress
 **Prerequisites** Lattice Weave
 -
-If a creature encounters multiple of your threads during a single movement, each thread can trigger independently.
+## :aa:
+Choose one of your threads. Each square the thread passes through bursts in a 5-foot emanation. Creatures in those emanations take 3d6 slashing damage (basic Reflex save against your class DC). The thread is destroyed.
 )
 }
 
 specialfeat {
 item (
-# Coordinated Stitch ((+++Coordinated Stitch))
+# Twin Tether ((+++Twin Tether))
 ## Feat 10
 -
 ;Combat Seamstress
 **Prerequisites** Tether Weave
 -
-When you prepare a protective tether, you can spend 1 additional action to prepare a linked tether on a second tethered ally. When one linked tether triggers, the other is immediately expended and grants the same benefit.
+You can maintain up to two tethers to the same creature. If either tether ends, the other remains.
 )
 }
 
@@ -1551,7 +1552,7 @@ item (
 ## Feat 10
 -
 ;Combat Seamstress
-When you critically hit with your tailor scissors, increase your Tailor's Cut damage die by one step for that instance. If the target is already taking persistent bleed damage from your Tailor's Cut, increase that bleed damage by one step instead.
+Your tailor scissors gain the deadly d10 trait.
 )
 }
 
@@ -1561,23 +1562,22 @@ item (
 ## Feat 10
 -
 ;Combat Seamstress
-## :f:
-**Trigger** One of your threads is triggered.
+## :r:
+**Trigger** One of your threads is triggered and its effect resolves.
 -
-Swap its effect slot with a connected thread’s effect slot for that trigger.
+Swap the triggering thread’s effect slot to another effect you know.
 )
 }
 
+|
+
 specialfeat {
 item (
-# Fateful Snare ((+++Fateful Snare))
+# Hidden Weaves ((+++Hidden Weaves))
 ## Feat 10
 -
 ;Combat Seamstress
-## :f:
-**Trigger** The first time per round one of your threads is triggered by a foe.
--
-That foe is off-guard and frightened 1.
+Your threads are camouflaged until they trigger for the first time. A creature can attempt to Seek to notice a thread; the DC is your class DC. On a success, it notices the thread. On a critical success, it can point the thread out to allies, making it visible to them until the end of its next turn. When a thread triggers for the first time, it becomes visible to all creatures.
 )
 }
 
@@ -1587,6 +1587,8 @@ item (
 ## Feat 10
 -
 ;Combat Seamstress
+**Prerequisites** Lattice Weave
+-
 ## :aa:
 Move one anchor up to 15 feet, sweeping it through squares; creatures crossed by the moving anchor trigger the thread.
 )
@@ -1598,29 +1600,23 @@ item (
 ## Feat 10
 -
 ;Combat Seamstress
-## :f:
-**Trigger** A protective tether you created triggers.
--
-The ally gains resistance 10 to physical damage until the start of your next turn.
+## :a:
+Choose one of your threads. Until the start of your next turn, that thread’s effect slot becomes Tether of Resolve. When a creature triggers the thread, choose acid, cold, electricity, fire, or sonic; the triggering creature gains resistance 10 to that damage type until the start of your next turn.
 )
 }
 
 specialfeat {
 item (
-# Stitch and Slide ((+++Stitch and Slide))
+# Tether Jolt ((+++Tether Jolt))
 ## Feat 10
 -
 ;Combat Seamstress
-## :f:
-**Trigger** One of your threads is triggered.
+**Prerequisites** Tether Weave
 -
-**Saving Throw** Reflex
+## :a:
+Choose a tethered enemy within your thread range. That creature must attempt a Fortitude save against your class DC.
 -
-**Success** The creature is unaffected.
-
-**Failure** You slide the creature 10 feet along the thread’s path.
-
-**Critical Failure** You slide the creature 15 feet along the thread’s path.
+The creature takes 3d6 slashing damage (basic Fortitude save).
 )
 }
 
