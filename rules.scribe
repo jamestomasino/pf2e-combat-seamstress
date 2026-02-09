@@ -167,7 +167,8 @@ Each thread has **one effect slot**, chosen when the thread is created.
 
 When a creature enters a square occupied by a thread during its own movement, the thread’s effect triggers. A thread can trigger only **once per creature per movement** unless an ability states otherwise.
 
-The effects available to you are granted by class features and feats and typically impose conditions, movement penalties, or positional hindrances.
+If multiple effects with the **thread-trigger** trait could apply when a thread is triggered, you can use only one of them for that trigger.
+
 
 If you have an ability that allows you to exempt allies, you designate exempt creatures when you create a thread. Your exemption limit follows the standard progression for your proficiency (typically **1 plus your proficiency bonus in your Combat Seamstress class DC**). Any feats or abilities that modify or add to this limit apply. Exempt creatures do not trigger that thread’s effects, nor do they pay any action costs imposed by it.
 
@@ -685,9 +686,7 @@ Lattice Weave emphasizes dense environmental threading that taxes movement and p
 |
 
 ### Enhanced Environmental Threads
-When a creature encounters one of your threads during its own movement, it triggers normally. If the creature continues moving through the thread’s square, that movement costs **1 additional action**.
-
-This action cost is paid immediately after the triggering movement. If the creature does not have an additional action available, the thread triggers and the creature’s movement ends immediately.
+When a creature encounters one of your threads during its own movement, it triggers normally. If the creature continues moving through the thread’s square, it becomes **stunned 1**.
 
 ### Layered Geometry
 If a creature encounters multiple of your threads during a single movement, each thread can trigger independently.
@@ -784,12 +783,11 @@ At every level that you gain a Combat Seamstress feat, you can select one of the
 | Woven Wall | 12 |
 | Living Fabric Minion | 12 |
 | Tanglefall | 14 |
-| Masterful Pull | 14 |
+| Detonating Thread | 14 |
 | Guardian's Reinforcement | 14 |
 | Living Fabric Bind | 14 |
-| Total Entanglement | 14 |
+| Curse Sever | 14 |
 | Tether Collapse | 14 |
-| Thread Conduit | 14 |
 | Web of Blades | 14 |
 | Stitched Silence | 14 |
 | Threadmastery | 16 |
@@ -797,7 +795,6 @@ At every level that you gain a Combat Seamstress feat, you can select one of the
 | Threaded Bulwark | 16 |
 | Living Fabric Mastery | 16 |
 | Seamripper's Precision | 16 |
-| Master Lattice | 16 |
 | Seam Sever | 16 |
 | Living Stitch | 18 |
 | Sever and Rearm | 18 |
@@ -814,9 +811,9 @@ At every level that you gain a Combat Seamstress feat, you can select one of the
 | Weave Supreme | 20 |
 | Fatebound Stitch | 20 |
 | Lattice Mastery | 20 |
-| Grand Pattern | 20 |
-| Thread Dominion | 20 |
 | Fatewrought Lattice | 20 |
+| Adamant Weave | 20 |
+| Cataclysm Weave | 20 |
 
 =
 
@@ -870,7 +867,7 @@ item (
 # Thread Feint ((+++Thread Feint))
 ## Feat 1
 -
-;Combat Seamstress
+;Combat Seamstress, thread-trigger
 ## :f:
 **Trigger** One of your threads is triggered by a creature.
 -
@@ -883,7 +880,7 @@ item (
 # Slip-Knot ((+++Slip-Knot))
 ## Feat 1
 -
-;Combat Seamstress
+;Combat Seamstress, thread-trigger
 ## :f:
 **Trigger** One of your threads is triggered by a creature.
 -
@@ -1156,7 +1153,7 @@ item (
 # Pin the Hem ((+++Pin the Hem))
 ## Feat 4
 -
-;Combat Seamstress
+;Combat Seamstress, thread-trigger
 ## :f:
 **Trigger** One of your threads is triggered and the triggering creature fails its saving throw.
 -
@@ -1269,7 +1266,7 @@ item (
 # Hard Pull ((+++Hard Pull))
 ## Feat 6
 -
-;Combat Seamstress
+;Combat Seamstress, thread-trigger
 ## :f:
 **Trigger** One of your threads is triggered and the triggering creature critically fails its saving throw.
 -
@@ -1284,7 +1281,7 @@ item (
 # Threaded Denial ((+++Threaded Denial))
 ## Feat 6
 -
-;Combat Seamstress
+;Combat Seamstress, thread-trigger
 ## :r:
 **Trigger** One of your threads is triggered.
 -
@@ -1297,7 +1294,7 @@ item (
 # Chain Trigger ((+++Chain Trigger))
 ## Feat 6
 -
-;Combat Seamstress
+;Combat Seamstress, thread-trigger
 ## :f:
 **Trigger** One of your threads is triggered.
 -
@@ -1310,7 +1307,7 @@ item (
 # Tension Spike ((+++Tension Spike))
 ## Feat 6
 -
-;Combat Seamstress
+;Combat Seamstress, thread-trigger
 ## :r:
 **Trigger** One of your threads is triggered by a creature.
 -
@@ -1417,7 +1414,7 @@ item (
 # Pattern Lock ((+++Pattern Lock))
 ## Feat 8
 -
-;Combat Seamstress
+;Combat Seamstress, thread-trigger
 ## :f:
 **Trigger** One of your threads is triggered.
 -
@@ -1458,7 +1455,7 @@ item (
 # Tether Split ((+++Tether Split))
 ## Feat 8
 -
-;Combat Seamstress
+;Combat Seamstress, thread-trigger
 ## :f:
 **Prerequisites** Tether Weave
 -
@@ -1473,7 +1470,7 @@ item (
 # Threaded Scan ((+++Threaded Scan))
 ## Feat 8
 -
-;Combat Seamstress
+;Combat Seamstress, thread-trigger
 ## :f:
 **Trigger** One of your threads is triggered by a creature.
 -
@@ -1486,7 +1483,7 @@ item (
 # Cross-Thread ((+++Cross-Thread))
 ## Feat 8
 -
-;Combat Seamstress
+;Combat Seamstress, thread-trigger
 ## :f:
 **Trigger** One of your threads is triggered by a creature in a square where two of your threads intersect.
 -
@@ -1560,7 +1557,7 @@ item (
 # Thread Mirror ((+++Thread Mirror))
 ## Feat 10
 -
-;Combat Seamstress
+;Combat Seamstress, thread-trigger
 ## :r:
 **Trigger** One of your threads is triggered and its effect resolves.
 -
@@ -1651,7 +1648,7 @@ item (
 # Thread Network ((+++Thread Network))
 ## Feat 12
 -
-;Combat Seamstress
+;Combat Seamstress, thread-trigger
 ## :f:
 **Trigger** One of your threads is triggered.
 -
@@ -1677,7 +1674,7 @@ item (
 # Tremor Web ((+++Tremor Web))
 ## Feat 12
 -
-;Combat Seamstress
+;Combat Seamstress, thread-trigger
 ## :f:
 **Trigger** One of your threads is triggered by a creature.
 -
@@ -1771,16 +1768,11 @@ Create a dense web of threads in a 10-foot burst within your thread range. Place
 
 specialfeat {
 item (
-# Masterful Pull ((+++Masterful Pull))
+# Detonating Thread ((+++Detonating Thread))
 ## Feat 14
 -
 ;Combat Seamstress
-## :r:
-**Prerequisites** Tether Weave
--
-**Trigger** A tethered creature critically fails a check against one of your tether effects.
--
-Pull the creature up to 10 feet closer to you. This movement does not trigger reactions, and the creature is off-guard to you until the start of your next turn.
+Choose this as the thread’s effect slot. The first time the thread is triggered, the triggering square explodes in a 10-foot burst. Creatures in the burst take 7d6 slashing damage (basic Reflex save against your class DC). The thread is destroyed.
 )
 }
 
@@ -1815,22 +1807,17 @@ You animate fabric you have touched since your last daily preparations within yo
 )
 }
 
+|
+
 specialfeat {
 item (
-# Total Entanglement ((+++Total Entanglement))
+# Curse Sever ((+++Curse Sever))
 ## Feat 14
 -
-;Combat Seamstress
-## :f:
-**Trigger** One of your threads is triggered.
+;Combat Seamstress, concentrate, exploration, healing
+**Prerequisites** master in Crafting
 -
-**Saving Throw** Fortitude
--
-**Success** The creature is unaffected.
-
-**Failure** The creature is slowed 1 for 2 rounds.
-
-**Critical Failure** The creature is slowed 2 for 2 rounds.
+You spend 8 hours cutting and re-stitching the target's garments to weaken a curse. Attempt to counteract one curse, using Crafting for your counteract check and half your level (rounded up) for your counteract rank. If you're legendary in Crafting, this activity takes 10 minutes instead.
 )
 }
 
@@ -1846,21 +1833,10 @@ When a tether breaks or ends, a 10-foot burst centered on it becomes difficult t
 
 specialfeat {
 item (
-# Thread Conduit ((+++Thread Conduit))
-## Feat 14
--
-;Combat Seamstress
-## :a:
-Once per round, you can move an anchor between connected threads without breaking them, as long as length limits are respected.
-)
-}
-
-specialfeat {
-item (
 # Web of Blades ((+++Web of Blades))
 ## Feat 14
 -
-;Combat Seamstress
+;Combat Seamstress, thread-trigger
 ## :f:
 **Trigger** One of your threads is triggered.
 -
@@ -1879,7 +1855,7 @@ item (
 # Stitched Silence ((+++Stitched Silence))
 ## Feat 14
 -
-;Combat Seamstress
+;Combat Seamstress, thread-trigger
 ## :f:
 **Trigger** One of your threads is triggered.
 -
@@ -1887,9 +1863,9 @@ item (
 -
 **Success** The creature is unaffected.
 
-**Failure** The creature can’t cast spells with verbal components until the end of its next turn.
+**Failure** The creature is affected by *silence* for 1 minute.
 
-**Critical Failure** As failure, and the creature is stupefied 1 until the end of its next turn.
+**Critical Failure** The creature is affected by *silence* for 10 minutes.
 )
 }
 
@@ -1933,6 +1909,8 @@ Fully wrap a tethered ally within your thread range in defensive bindings. Until
 )
 }
 
+|
+
 specialfeat {
 item (
 # Living Fabric Mastery ((+++Living Fabric Mastery))
@@ -1955,21 +1933,13 @@ Your tailor scissors Strikes ignore 5 points of physical resistance. If the targ
 
 specialfeat {
 item (
-# Master Lattice ((+++Master Lattice))
-## Feat 16
--
-;Combat Seamstress
-All squares containing your threads are difficult terrain for enemies but not for you or your allies.
-)
-}
-
-specialfeat {
-item (
 # Seam Sever ((+++Seam Sever))
 ## Feat 16
 -
 ;Combat Seamstress
 ## :f:
+**Prerequisites** Tether Weave
+-
 **Trigger** You critically hit with tailor scissors.
 -
 Sever all threads attached to the target and apply their effects.
@@ -1988,6 +1958,7 @@ item (
 ;Combat Seamstress
 ## :r:
 **Frequency** once per day  
+
 **Trigger** A creature within your thread range wearing or attached to fabric would be hit by an attack, would take falling damage, or ends its movement.
 -
 You animate nearby fabric you have touched since your last daily preparations. Choose one effect.
@@ -2005,7 +1976,7 @@ item (
 -
 ;Combat Seamstress
 ## :r:
-**Trigger** You sever a thread or tether.
+**Trigger** A thread or tether you created is severed.
 -
 Immediately re-anchor the severed thread or tether to a valid anchor within your thread range. This does not increase your number of threads and must obey maximum thread length.
 )
@@ -2021,6 +1992,8 @@ You no longer need to designate exempt creatures. All allies are automatically e
 )
 }
 
+|
+
 specialfeat {
 item (
 # Dimensional Snag ((+++Dimensional Snag))
@@ -2029,6 +2002,7 @@ item (
 ;Combat Seamstress
 ## :r:
 **Prerequisites** Tether Weave  
+
 **Trigger** A tethered creature attempts to teleport, travel between planes, or become extradimensional.
 -
 The triggering creature must attempt a Will save against your class DC. On a failure, the effect fails and the tether remains. On a success, the effect occurs and the tether unravels. On a critical success, the effect occurs and the creature is temporarily immune to Dimensional Snag for 10 minutes.
@@ -2052,7 +2026,7 @@ item (
 # Absolute Snare ((+++Absolute Snare))
 ## Feat 18
 -
-;Combat Seamstress
+;Combat Seamstress, thread-trigger
 ## :f:
 **Trigger** One of your threads is triggered.
 -
@@ -2060,9 +2034,9 @@ item (
 -
 **Success** The creature is unaffected.
 
-**Failure** The creature is immobilized and slowed 1 for 1 round.
+**Failure** The creature is immobilized.
 
-**Critical Failure** The creature is immobilized and slowed 2 for 1 round.
+**Critical Failure** The creature is petrified.
 )
 }
 
@@ -2111,33 +2085,35 @@ item (
 ;Combat Seamstress
 **Prerequisites** Lattice Weave
 -
-When a creature encounters one of your threads during its own movement, it must spend **2 additional actions** instead of 1.
+When a creature encounters one of your threads during its own movement and continues moving through the thread’s square, it becomes **stunned 2** instead of **stunned 1**.
+)
+}
+
+|
+
+specialfeat {
+item (
+# Adamant Weave ((+++Adamant Weave))
+## Feat 20
+-
+;Combat Seamstress
+**Prerequisites** Lattice Weave
+-
+## :aa:
+All of your threads solidify into 20-foot-high adamant webs, becoming physical barriers that are impassable. While solidified, your threads do not trigger effects. This lasts for 1 minute, and you must Sustain this effect each round or it ends.
+-
+Each web has **Hardness** 28; **HP** 112 (BT 56).
 )
 }
 
 specialfeat {
 item (
-# Grand Pattern ((+++Grand Pattern))
+# Cataclysm Weave ((+++Cataclysm Weave))
 ## Feat 20
 -
 ;Combat Seamstress
-## :a:
-**Frequency** once per day
--
-Set all anchors for all of your threads with a single action.
-)
-}
-
-specialfeat {
-item (
-# Thread Dominion ((+++Thread Dominion))
-## Feat 20
--
-;Combat Seamstress
-## :f:
-**Trigger** One of your threads is triggered.
--
-That creature must spend 2 actions to leave its square before the end of its next turn.
+## :aa:
+Detonate all of your threads and hostile tethers. Each thread line erupts in a 5-foot emanation along its length. Creatures in the area take 3d10 slashing damage per thread (basic Reflex save against your class DC). All of your threads and hostile tethers are destroyed.
 )
 }
 
@@ -2146,7 +2122,7 @@ item (
 # Fatewrought Lattice ((+++Fatewrought Lattice))
 ## Feat 20
 -
-;Combat Seamstress
+;Combat Seamstress, thread-trigger
 ## :f:
 **Trigger** One of your threads is triggered and the triggering creature attempts a saving throw against it.
 -
