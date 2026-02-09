@@ -758,9 +758,9 @@ At every level that you gain a Combat Seamstress feat, you can select one of the
 | Weighted Stitch | 8 |
 | Double Exemption | 8 |
 | Tether Split | 8 |
-| Needle Barrage | 8 |
+| Threaded Scan | 8 |
 | Cross-Thread | 8 |
-| Anchored Break | 8 |
+| Hardened Lines | 8 |
 | Powerful Threads | 10 |
 | Reinforced Lattice | 10 |
 | Coordinated Stitch | 10 |
@@ -1392,7 +1392,7 @@ item (
 ## Feat 8
 -
 ;Combat Seamstress
-Squares that contain one of your threads are treated as one step easier on the difficult terrain scale for you.
+Squares that contain one of your threads are treated as one step easier on the difficult terrain scale for you and for allies you have exempted from your thread effects. They ignore difficult terrain in those squares.
 )
 }
 
@@ -1410,6 +1410,8 @@ You gain the following protective tether effects, which you can choose when you 
 * **Steeled Thread** The ally gains a +2 circumstance bonus to saving throws until the start of your next turn.
 )
 }
+
+|
 
 specialfeat {
 item (
@@ -1436,6 +1438,8 @@ item (
 ## Feat 8
 -
 ;Combat Seamstress
+**Prerequisites** Lattice Weave
+-
 Squares containing your threads count as one step worse difficult terrain for enemies.
 )
 }
@@ -1457,22 +1461,24 @@ item (
 -
 ;Combat Seamstress
 ## :f:
-**Trigger** You create a protective tether.
+**Prerequisites** Tether Weave
 -
-You can link a second ally; when the tether triggers, both allies gain the benefit.
+**Trigger** One of your threads is triggered by a creature.
+-
+Choose a second creature tethered to you. The triggering thread’s effect also applies to that second tethered creature.
 )
 }
 
 specialfeat {
 item (
-# Needle Barrage ((+++Needle Barrage))
+# Threaded Scan ((+++Threaded Scan))
 ## Feat 8
 -
 ;Combat Seamstress
-## :r:
-**Trigger** One of your threads is triggered.
+## :f:
+**Trigger** One of your threads is triggered by a creature.
 -
-Make a tailor scissors Strike against it.
+Attempt to Recall Knowledge about the triggering creature.
 )
 }
 
@@ -1483,25 +1489,19 @@ item (
 -
 ;Combat Seamstress
 ## :f:
-**Trigger** A creature enters a square where two of your threads intersect.
+**Trigger** One of your threads is triggered by a creature in a square where two of your threads intersect.
 -
-**Saving Throw** Reflex
--
-**Success** The creature is unaffected.
-
-**Failure** The creature takes 1d6 slashing damage.
-
-**Critical Failure** The creature takes 2d6 slashing damage.
+After resolving both threads’ effects, the creature takes 1d6 persistent bleed damage.
 )
 }
 
 specialfeat {
 item (
-# Anchored Break ((+++Anchored Break))
+# Hardened Lines ((+++Hardened Lines))
 ## Feat 8
 -
 ;Combat Seamstress
-If a creature attempts to sever one of your threads, it must spend 2 actions instead of 1.
+Increase your thread AC and thread DC by 2 against attempts to sever or tear them.
 )
 }
 
