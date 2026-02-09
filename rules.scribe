@@ -407,7 +407,7 @@ Make a ranged Strike with a needle at an unoccupied square, an unattended object
 
 If the target is an ordinary unattended object or an empty square with no listed AC, use DC 13 for this Strike. For other targets without a listed AC, use the DC by level.
 
-**Tether Weave** If you have selected the Tether Weave style, you can target a creature with Needle Throw. On a hit, you create or extend a thread anchored at that creature, and the other end must be anchored to you, creating a tether. A creature can have only one tether to you at a time unless an ability states otherwise. A tether to a willing creature is protective, and a tether to an unwilling creature is hostile. A tether to an unwilling ally has no protective effects.
+**Tether Weave** If you have selected the Tether Weave style, you can target a creature with Needle Throw. On a hit, you create or extend a thread anchored at that creature, and the other end must be anchored to you, creating a tether. You are always the anchor for your end of a tether, and it occupies your space as you move. A creature can have only one tether to you at a time unless an ability states otherwise. A tether to a willing creature is protective, and a tether to an unwilling creature is hostile. A tether to an unwilling ally has no protective effects.
 
 Creating or extending a thread with this action uses your Combat Seamstress class DC for any required saves or checks related to that thread.
 )
@@ -741,16 +741,16 @@ At every level that you gain a Combat Seamstress feat, you can select one of the
 | Feat | Level |
 |:-----|:-----:|
 | Cutter's Reward | 6 |
-| Stake the Line | 6 |
+| Twin Tether | 6 |
 | Hooked Riposte | 6 |
 | Needle Barricade | 6 |
 | Hard Pull | 6 |
 | Threaded Denial | 6 |
 | Chain Trigger | 6 |
 | Tension Spike | 6 |
-| Lattice Drag | 6 |
+| Two as One | 6 |
 | Guarded Anchor | 6 |
-| Snare and Pull | 8 |
+| Chain Drag | 8 |
 | Lattice Step | 8 |
 | Worked Ground | 8 |
 | Guardian's Shield | 8 |
@@ -873,7 +873,7 @@ item (
 -
 ;Combat Seamstress
 ## :f:
-**Trigger** A creature triggers one of your threads.
+**Trigger** One of your threads is triggered by a creature.
 -
 That creature is off-guard to you until the end of your next turn.
 )
@@ -886,7 +886,7 @@ item (
 -
 ;Combat Seamstress
 ## :f:
-**Trigger** A creature moves through one of your threads.
+**Trigger** One of your threads is triggered by a creature.
 -
 Reduce its Speed by 5 feet for that movement.
 )
@@ -1019,7 +1019,7 @@ item (
 ## :f:
 **Trigger** A creature critically fails its saving throw against one of your threads.
 -
-If the creature is no more than one size category larger than you, pull it 10 feet toward one of the thread’s anchors.
+If the creature is no more than one size category larger than you, pull it 5 feet toward one of the thread’s anchors.
 )
 }
 
@@ -1159,7 +1159,7 @@ item (
 -
 ;Combat Seamstress
 ## :f:
-**Trigger** A creature fails its saving throw against one of your threads.
+**Trigger** One of your threads is triggered and the triggering creature fails its saving throw.
 -
 That creature is off-guard to all allies until the end of your next turn.
 )
@@ -1220,14 +1220,14 @@ Once per turn, when you hit with your tailor scissors, apply your Tailor's Cut p
 
 specialfeat {
 item (
-# Stake the Line ((+++Stake the Line))
+# Twin Tether ((+++Twin Tether))
 ## Feat 6
 -
 ;Combat Seamstress, attack, finesse, ranged, manipulate
 ## :a:
-**Prerequisites** Lattice Weave
+**Prerequisites** Tether Weave
 -
-Make two Needle Throw Strikes to set both anchors for a single thread. Choose two anchors you can see, each within Needle Throw range. The thread must still obey your maximum thread length. Apply your multiple attack penalty normally.
+Make a Needle Throw Strike against a creature within range. On a hit, you can also tether a second adjacent creature within your thread range; you don’t need to hit the second creature. Each tether must still obey your maximum thread length.
 )
 }
 
@@ -1272,19 +1272,13 @@ item (
 -
 ;Combat Seamstress
 ## :f:
-**Trigger** A creature triggers your thread.
+**Trigger** One of your threads is triggered and the triggering creature critically fails its saving throw.
 -
 Pull the creature 10 feet toward one of the thread’s anchors.
--
-**Saving Throw** Fortitude
--
-**Success** The creature isn’t knocked prone.
-
-**Failure** The creature falls prone.
-
-**Critical Failure** The creature falls prone and is slowed 1 until the end of its next turn.
 )
 }
+
+|
 
 specialfeat {
 item (
@@ -1293,7 +1287,7 @@ item (
 -
 ;Combat Seamstress
 ## :r:
-**Trigger** A creature crosses your thread.
+**Trigger** One of your threads is triggered.
 -
 That creature can’t use reactions until the start of its next turn.
 )
@@ -1306,7 +1300,7 @@ item (
 -
 ;Combat Seamstress
 ## :f:
-**Trigger** A creature triggers one of your threads.
+**Trigger** One of your threads is triggered.
 -
 Choose a connected thread to also apply its effect to that creature.
 )
@@ -1318,26 +1312,23 @@ item (
 ## Feat 6
 -
 ;Combat Seamstress
-## :f:
-**Trigger** A creature triggers your thread.
+## :r:
+**Trigger** One of your threads is triggered by a creature.
 -
-**Saving Throw** Fortitude
--
-**Success** The creature is unaffected.
-
-**Failure** The creature is slowed 1 for 1 round.
-
-**Critical Failure** The creature is slowed 2 for 1 round.
+Attempt an Athletics check to Trip the triggering creature; this uses your thread as the weapon and targets the creature’s Reflex DC.
 )
 }
 
 specialfeat {
 item (
-# Lattice Drag ((+++Lattice Drag))
+# Two as One ((+++Two as One))
 ## Feat 6
 -
 ;Combat Seamstress
-If a tethered creature moves, it takes 1d6 slashing damage for every 10 feet it moves (once per round).
+## :r:
+**Trigger** A tethered creature moves.
+-
+You can Stride up to the same number of squares the creature moved, as long as you end your movement no farther from the creature than you started.
 )
 }
 
@@ -1366,14 +1357,20 @@ item (
 
 specialfeat {
 item (
-# Snare and Pull ((+++Snare and Pull))
+# Chain Drag ((+++Chain Drag))
 ## Feat 8
 -
 ;Combat Seamstress
-## :aa:
-**Prerequisites** Tether Weave
+## :aaa:
+**Prerequisites** Hard Pull
 -
-Pull a tethered enemy 5 feet closer to you. This movement does not trigger reactions.
+Choose a tethered creature within your thread range. That creature must attempt a Fortitude save against your class DC.
+-
+**Success** The creature is unaffected.
+
+**Failure** If the creature is no more than one size category larger than you, pull it along the tether until it is adjacent to you. This movement does not trigger reactions.
+
+**Critical Failure** As failure, and the creature falls prone.
 )
 }
 
@@ -1421,7 +1418,7 @@ item (
 -
 ;Combat Seamstress
 ## :f:
-**Trigger** A creature triggers your thread.
+**Trigger** One of your threads is triggered.
 -
 **Saving Throw** Fortitude
 -
@@ -1473,7 +1470,7 @@ item (
 -
 ;Combat Seamstress
 ## :r:
-**Trigger** A creature triggers your thread.
+**Trigger** One of your threads is triggered.
 -
 Make a tailor scissors Strike against it.
 )
@@ -1565,7 +1562,7 @@ item (
 -
 ;Combat Seamstress
 ## :f:
-**Trigger** A thread triggers.
+**Trigger** One of your threads is triggered.
 -
 Swap its effect slot with a connected thread’s effect slot for that trigger.
 )
@@ -1578,7 +1575,7 @@ item (
 -
 ;Combat Seamstress
 ## :f:
-**Trigger** The first time per round a foe triggers your thread.
+**Trigger** The first time per round one of your threads is triggered by a foe.
 -
 That foe is off-guard and frightened 1.
 )
@@ -1615,7 +1612,7 @@ item (
 -
 ;Combat Seamstress
 ## :f:
-**Trigger** A creature triggers your thread.
+**Trigger** One of your threads is triggered.
 -
 **Saving Throw** Reflex
 -
@@ -1661,7 +1658,7 @@ item (
 -
 ;Combat Seamstress
 ## :f:
-**Trigger** A creature triggers one of your threads.
+**Trigger** One of your threads is triggered.
 -
 Threads are connected if they share an anchor or if a chain of your threads links their anchors. Choose another connected thread; the creature is affected by the chosen thread’s effect slot instead of the original. This does not increase the number of effects triggered.
 )
@@ -1709,7 +1706,7 @@ item (
 -
 ;Combat Seamstress
 ## :f:
-**Trigger** A creature triggers your thread.
+**Trigger** One of your threads is triggered.
 -
 **Saving Throw** Fortitude
 -
@@ -1739,7 +1736,7 @@ item (
 -
 ;Combat Seamstress
 ## :f:
-**Trigger** A creature triggers one of your threads.
+**Trigger** One of your threads is triggered.
 -
 Choose up to two connected threads to also affect it.
 )
@@ -1815,7 +1812,7 @@ item (
 -
 ;Combat Seamstress
 ## :f:
-**Trigger** A creature triggers your thread.
+**Trigger** One of your threads is triggered.
 -
 **Saving Throw** Fortitude
 -
@@ -1855,7 +1852,7 @@ item (
 -
 ;Combat Seamstress
 ## :f:
-**Trigger** A creature triggers your thread.
+**Trigger** One of your threads is triggered.
 -
 **Saving Throw** Fortitude
 -
@@ -1874,7 +1871,7 @@ item (
 -
 ;Combat Seamstress
 ## :f:
-**Trigger** A creature triggers your thread.
+**Trigger** One of your threads is triggered.
 -
 **Saving Throw** Will
 -
@@ -2047,7 +2044,7 @@ item (
 -
 ;Combat Seamstress
 ## :f:
-**Trigger** A creature triggers your thread.
+**Trigger** One of your threads is triggered.
 -
 **Saving Throw** Fortitude
 -
@@ -2128,7 +2125,7 @@ item (
 -
 ;Combat Seamstress
 ## :f:
-**Trigger** A creature triggers your thread.
+**Trigger** One of your threads is triggered.
 -
 That creature must spend 2 actions to leave its square before the end of its next turn.
 )
@@ -2141,7 +2138,7 @@ item (
 -
 ;Combat Seamstress
 ## :f:
-**Trigger** A creature triggers your thread and attempts a saving throw against it.
+**Trigger** One of your threads is triggered and the triggering creature attempts a saving throw against it.
 -
 That creature must reroll the saving throw and take the worse result.
 )
